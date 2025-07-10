@@ -1,0 +1,242 @@
+/* Variables de colores */
+:root {
+  --pink: #FB52A8;
+  --orange: #FD9A38;
+  --yellow: #FDE53E;
+  --teal: #35C8DA;
+  --light-green: #82E04A;
+  --purple: #9762DF;
+  --bg: #ffffff;
+  --text: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, var(--pink), var(--purple));
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: bold;
+}
+
+.hero {
+  margin-top: 5px;
+  background-image: url('https://placehold.co/1920x1080 ');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  background-color: white;
+  color: var(--purple);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #f0f0f0;
+}
+
+section {
+  padding: 3rem 2rem;
+}
+
+.products,
+.about,
+.testimonials {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.carousel-container {
+  overflow-x: scroll;
+  position: relative;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: var(--purple) transparent;
+}
+
+.carousel-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carousel-container::-webkit-scrollbar-thumb {
+  background: var(--purple);
+  border-radius: 4px;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 1rem;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.product-card .info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.product-card .info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-card .info button {
+  background-color: var(--yellow);
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.product-card .info button:hover {
+  background-color: #eac12f;
+}
+
+/* About Us */
+.about {
+  background-color: #f5f5f5;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.about img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+}
+
+.about-content button {
+  background-color: var(--teal);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 200px;
+}
+
+/* Testimonios */
+.testimonials {
+  background-color: #f5f5f5;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.testimonial-cards {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.testimonial {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial p {
+  margin-bottom: 1rem;
+}
+
+.testimonial .client {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial .client img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+footer {
+  margin-top: 5px;
+  background: linear-gradient(90deg, var(--pink), var(--purple));
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}

@@ -1,0 +1,156 @@
+/* Variables de colores */
+:root {
+  --pink: #FB52A8;
+  --orange: #FD9A38;
+  --yellow: #FDE53E;
+  --teal: #35C8DA;
+  --light-green: #82E04A;
+  --purple: #9762DF;
+  --bg: #ffffff;
+  --text: #333333;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía y estilo general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
+  display: flex;
+  flex-direction: column; /* Organiza el contenido verticalmente */
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, var(--pink), var(--purple));
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+nav a.active {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de productos - Galería */
+.products-gallery {
+  margin-top: 80px; /* Para que no se tape el header fijo */
+  flex-grow: 1; /* Hace que esta sección ocupe todo el espacio disponible */
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--text);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: var(--pink);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e04b96;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, var(--pink), var(--purple));
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 5pxz; /* Asegura que el footer quede siempre abajo */
+}
