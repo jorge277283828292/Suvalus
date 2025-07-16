@@ -24,68 +24,8 @@
   <!-- Products Gallery Section -->
   <section class="products-gallery">
     <h2 class="section-title">Nuestros Productos</h2>
-    <div class="gallery">
-
-      <!-- Producto 1 -->
-      <div class="card">
-        <img src="https://placehold.co/600x400 " alt="Producto 1">
-        <div class="card-content">
-          <h3>Centro de Mesa Brillante</h3>
-          <p>Un centro de mesa elegante y brillante para darle un toque especial a tu fiesta.</p>
-          <button class="btn">Ver Detalles</button>
-        </div>
-      </div>
-
-      <!-- Producto 2 -->
-      <div class="card">
-        <img src="https://placehold.co/600x400 " alt="Producto 2">
-        <div class="card-content">
-          <h3>Banderines Coloridos</h3>
-          <p>Agrega un toque festivo a tu espacio con nuestros banderines coloridos.</p>
-          <button class="btn">Ver Detalles</button>
-        </div>
-      </div>
-
-      <!-- Producto 3 -->
-      <div class="card">
-        <img src="https://placehold.co/600x400 " alt="Producto 3">
-        <div class="card-content">
-          <h3>Luces LED Decorativas</h3>
-          <p>Ilumina tu evento con luces LED que crean un ambiente mágico y acogedor.</p>
-          <button class="btn">Ver Detalles</button>
-        </div>
-      </div>
-
-      <!-- Producto 4 -->
-      <div class="card">
-        <img src="https://placehold.co/600x400 " alt="Producto 4">
-        <div class="card-content">
-          <h3>Globos Metálicos</h3>
-          <p>Globos de aluminio en varios colores ideales para decorar cualquier celebración.</p>
-          <button class="btn">Ver Detalles</button>
-        </div>
-      </div>
-
-      <!-- Producto 5 -->
-      <div class="card">
-        <img src="https://placehold.co/600x400 " alt="Producto 5">
-        <div class="card-content">
-          <h3>Mantelería Elegante</h3>
-          <p>Juego de mantas y servilletas de tela premium para una mesa inolvidable.</p>
-          <button class="btn">Ver Detalles</button>
-        </div>
-      </div>
-
-      <!-- Producto 6 -->
-      <div class="card">
-        <img src="https://placehold.co/600x400 " alt="Producto 6">
-        <div class="card-content">
-          <h3>Tarjetas de Invitación</h3>
-          <p>Diseños personalizados de tarjetas de invitación para tus eventos más especiales.</p>
-          <button class="btn">Ver Detalles</button>
-        </div>
-      </div>
-
+    <div class="gallery" id="gallery">
+      <!-- Product cards will be dynamically inserted here -->
     </div>
   </section>
 
@@ -93,6 +33,60 @@
   <footer>
     <p>© 2025 Suvalus. Todos los derechos reservados.</p>
   </footer>
+
+  <script>
+    // Fetch products JSON and dynamically create product cards
+    fetch('productos.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Error al cargar el archivo JSON');
+        }
+        return response.json();
+      })
+      .then(products => {
+        const gallery = document.getElementById('gallery');
+        products.forEach(product => {
+          // Create card container
+          const card = document.createElement('div');
+          card.className = 'card';
+
+          // Create image element
+          const img = document.createElement('img');
+          img.src = product.imagen;
+          img.alt = product.nombre;
+
+          // Create card content container
+          const cardContent = document.createElement('div');
+          cardContent.className = 'card-content';
+
+          // Create product name element
+          const h3 = document.createElement('h3');
+          h3.textContent = product.nombre;
+
+          // Create description paragraph
+          const p = document.createElement('p');
+          p.textContent = product.descripcion;
+
+          // Create button
+          const button = document.createElement('button');
+          button.className = 'btn';
+          button.textContent = 'Ver Detalles';
+
+          // Append elements
+          cardContent.appendChild(h3);
+          cardContent.appendChild(p);
+          cardContent.appendChild(button);
+
+          card.appendChild(img);
+          card.appendChild(cardContent);
+
+          gallery.appendChild(card);
+        });
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  </script>
 
 </body>
 </html>

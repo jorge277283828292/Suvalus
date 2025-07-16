@@ -44,13 +44,39 @@ nav a {
 }
 
 .hero {
-  margin-top: 5px;
-  background-image: url('https://placehold.co/1920x1080 ');
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  height: 70vh; /* Más alto para mostrar más imagen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #341965; /* Color similar al fondo de la imagen */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 2rem 3rem;
+  background: rgba(40, 0, 70, 0.5); /* Fondo semitransparente SOLO aquí */
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./Imagenes/fondo_principal.png");
+  background-size: contain;
   background-position: center;
-  color: white;
-  text-align: center;
-  padding: 4rem 2rem;
+  background-repeat: no-repeat;
+  z-index: 1;
+  /* Elimina cualquier fondo aquí */
 }
 
 .hero h2 {
@@ -197,40 +223,64 @@ section {
 /* Testimonios */
 .testimonials {
   background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .testimonials h2 {
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .testimonial-cards {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 .testimonial {
   background-color: white;
   border-radius: 10px;
   padding: 1rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  border: 1px solid #ddd;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
 .testimonial p {
   margin-bottom: 1rem;
+  font-style: italic;
+  text-align: center;
+  color: #555;
+  font-size: 1.05rem;
 }
 
 .testimonial .client {
   display: flex;
   align-items: center;
+  gap: 0.75rem;
 }
 
 .testimonial .client img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 1rem;
+  object-fit: cover;
+  border: 2px solid var(--pink);
 }
 
 footer {
@@ -239,4 +289,70 @@ footer {
   color: white;
   text-align: center;
   padding: 1.5rem 1rem;
+}
+
+/* Estilos mejorados para el formulario de comentarios */
+.comment-form-container {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#comment-form {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+#comment-name {
+  width: 150px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  height: 38px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+#comment-name:focus {
+  border-color: #fb52a8;
+  outline: none;
+}
+
+#comment-text {
+  flex-grow: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  resize: vertical;
+  min-height: 38px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+#comment-text:focus {
+  border-color: #fb52a8;
+  outline: none;
+}
+
+#comment-form button {
+  background-color: #fb52a8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  height: 38px;
+  transition: background-color 0.3s ease;
+}
+
+#comment-form button:hover {
+  background-color: #9762df;
 }
