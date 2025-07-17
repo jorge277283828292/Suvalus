@@ -1,28 +1,13 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
-import databases
-import sqlalchemy
 from datetime import datetime
-
-DATABASE_URL = "mysql+mysqlconnector://root:Root1234@127.0.0.1:3306/kyra"
-
-database = databases.Database(DATABASE_URL)
-metadata = sqlalchemy.MetaData()
-
-comentarios = sqlalchemy.Table(
-    "comentarios",
-    metadata,
-    sqlalchemy.Column("id", sqlalchemy.Integer, primary_key=True),
-    sqlalchemy.Column("nombre", sqlalchemy.String(length=100)),
-    sqlalchemy.Column("comentario", sqlalchemy.Text),
-    sqlalchemy.Column("fecha", sqlalchemy.DateTime),
-)
-
-engine = sqlalchemy.create_engine(DATABASE_URL)
-metadata.create_all(engine)
+import json
+import os
 
 app = FastAPI()
+
+COMMENTS_FILE = "backend/comments.json"
 
 class ComentarioIn(BaseModel):
     nombre: str
@@ -32,25 +17,46 @@ class ComentarioOut(ComentarioIn):
     id: int
     fecha: datetime
 
-@app.on_event("startup")
-async def startup():
-    await database.connect()
+def read_comments() -> List[ComentarioOut]:
+    if not os.path.exists(COMMENTS_FILE):
+        return []
+    with open(COMMENTS_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        # Convertir fecha de string a datetime
+        for item in data:
+            item["fecha"] = datetime.fromisoformat(item["fecha"])
+        return data
 
-@app.on_event("shutdown")
-async def shutdown():
-    await database.disconnect()
+def write_comments(comments: List[ComentarioOut]):
+    # Convertir fecha a string ISO para guardar en JSON
+    data = []
+    for c in comments:
+        data.append({
+            "id": c["id"],
+            "nombre": c["nombre"],
+            "comentario": c["comentario"],
+            "fecha": c["fecha"].isoformat() if isinstance(c["fecha"], datetime) else c["fecha"]
+        })
+    with open(COMMENTS_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 @app.get("/comments", response_model=List[ComentarioOut])
 async def get_comments():
-    query = comentarios.select().order_by(comentarios.c.fecha.desc())
-    return await database.fetch_all(query)
+    comments = read_comments()
+    # Ordenar por fecha descendente
+    comments.sort(key=lambda x: x["fecha"], reverse=True)
+    return comments
 
 @app.post("/comments", response_model=ComentarioOut)
 async def post_comment(comment: ComentarioIn):
-    query = comentarios.insert().values(
-        nombre=comment.nombre,
-        comentario=comment.comentario,
-        fecha=datetime.utcnow()
-    )
-    last_record_id = await database.execute(query)
-    return {**comment.dict(), "id": last_record_id, "fecha": datetime.utcnow()}
+    comments = read_comments()
+    new_id = max([c["id"] for c in comments], default=0) + 1
+    new_comment = {
+        "id": new_id,
+        "nombre": comment.nombre,
+        "comentario": comment.comentario,
+        "fecha": datetime.utcnow()
+    }
+    comments.append(new_comment)
+    write_comments(comments)
+    return new_comment
