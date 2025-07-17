@@ -358,3 +358,164 @@ footer {
 #comment-form button:hover {
   background-color: #9762df;
 }
+
+/* Estilos para la sección de contacto */
+.contact-section {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-info {
+  flex: 1 1 300px;
+  max-width: 400px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  color: var(--teal);
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.contact-info a {
+  color: var(--pink);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--pink);
+  outline: none;
+}
+
+.contact-form button {
+  background-color: var(--pink);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: var(--purple);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info,
+  .contact-form {
+    max-width: 100%;
+  }
+}
+
+/* Ajuste para que el footer quede al fondo y el contenido centrado */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body > *:not(footer) {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+  text-align: center;
+  background: linear-gradient(90deg, var(--pink), var(--purple));
+  color: white;
+  padding: 1.5rem 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Ajuste para que el footer de index.html quede al fondo */
+body.index, html.index {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+body.index > *:not(footer), html.index > *:not(footer) {
+  flex: 1 0 auto;
+}
+
+footer.index-footer {
+  flex-shrink: 0;
+  text-align: center;
+  background: linear-gradient(90deg, var(--pink), var(--purple));
+  color: white;
+  padding: 1.5rem 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Centrar el contenedor principal de contacto */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
