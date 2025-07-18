@@ -1,4 +1,4 @@
-/* Variables de colores */
+ /* Variables de colores */
 :root {
   --pink: #FB52A8;
   --orange: #FD9A38;
@@ -30,6 +30,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+  max-height: 60px;
 }
 
 header h1 {
