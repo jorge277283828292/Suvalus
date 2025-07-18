@@ -1,10 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const carousel = document.getElementById("carousel");
 
-  // Copiar contenido al principio y al final para hacerlo infinito
-  carousel.innerHTML += carousel.innerHTML; // Duplicar contenido al final
-  carousel.innerHTML = carousel.innerHTML;  // Re-renderizar
-
   let scrollAmount = 0;
 
   function scrollCarousel() {
@@ -23,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setInterval(scrollCarousel, 50); // Velocidad del scroll automático
 
-  // Comments functionality with backend API
   const commentForm = document.getElementById("comment-form");
   const commentsList = document.getElementById("testimonial-cards");
 
