@@ -24,6 +24,28 @@
   <!-- Products Gallery Section -->
   <section class="products-gallery">
     <h2 class="section-title">Nuestros Productos</h2>
+
+    <!-- Search and Filters -->
+    <div class="filters-container">
+      <input type="text" id="searchInput" placeholder="Buscar productos..." aria-label="Buscar productos" />
+      <button id="searchButton" aria-label="Buscar">
+        🔍
+      </button>
+      <div class="filter-dropdown-container">
+        <button id="filterToggleButton" aria-expanded="false" aria-controls="filterDropdown" aria-label="Mostrar filtros">Filtros ▾</button>
+        <div id="filterDropdown" class="filter-dropdown" hidden>
+          <!-- Botón de cerrar eliminado según solicitud -->
+          <label><input type="checkbox" class="category-filter" value="Piñatas" checked /> Piñatas</label>
+          <label><input type="checkbox" class="category-filter" value="Bolsitas" checked /> Bolsitas</label>
+          <label><input type="checkbox" class="category-filter" value="Faroles" checked /> Faroles</label>
+          <label><input type="checkbox" class="category-filter" value="Accesorios" checked /> Accesorios</label>
+          <label><input type="checkbox" class="category-filter" value="Centros de Mesa" checked /> Centros de Mesa</label>
+          <label><input type="checkbox" class="category-filter" value="Photobooth" checked /> Photobooth</label>
+          <label><input type="checkbox" class="category-filter" value="Otros" checked /> Otros</label>
+        </div>
+      </div>
+    </div>
+
     <div class="gallery" id="gallery">
       <!-- Product cards will be dynamically inserted here -->
     </div>
@@ -34,59 +56,143 @@
     <p>© 2025 Suvalus. Todos los derechos reservados.</p>
   </footer>
 
-  <script>
-    // Fetch products JSON and dynamically create product cards
-    fetch('productos.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Error al cargar el archivo JSON');
-        }
-        return response.json();
-      })
-      .then(products => {
-        const gallery = document.getElementById('gallery');
+    <script>
+      let productsData = [];
+  
+      // Fetch products JSON and dynamically create product cards
+      fetch('productos.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Error al cargar el archivo JSON');
+          }
+          return response.json();
+        })
+        .then(products => {
+          productsData = products;
+          renderProducts(productsData);
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+  
+      const gallery = document.getElementById('gallery');
+      const searchInput = document.getElementById('searchInput');
+      const searchButton = document.getElementById('searchButton');
+      const categoryFilters = document.querySelectorAll('.category-filter');
+      const filterToggleButton = document.getElementById('filterToggleButton');
+      const filterDropdown = document.getElementById('filterDropdown');
+  
+      function renderProducts(products) {
+        gallery.innerHTML = '';
         products.forEach(product => {
-          // Create card container
           const card = document.createElement('div');
           card.className = 'card';
-
-          // Create image element
+  
           const img = document.createElement('img');
           img.src = product.imagen;
           img.alt = product.nombre;
-
-          // Create card content container
+  
           const cardContent = document.createElement('div');
           cardContent.className = 'card-content';
-
-          // Create product name element
+  
           const h3 = document.createElement('h3');
           h3.textContent = product.nombre;
-
-          // Create description paragraph
+  
           const p = document.createElement('p');
           p.textContent = product.descripcion;
-
-          // Create button
+  
           const button = document.createElement('button');
           button.className = 'btn';
           button.textContent = 'Ver Detalles';
-
-          // Append elements
+  
           cardContent.appendChild(h3);
           cardContent.appendChild(p);
           cardContent.appendChild(button);
-
+  
           card.appendChild(img);
           card.appendChild(cardContent);
-
+  
           gallery.appendChild(card);
         });
-      })
-      .catch(error => {
-        console.error('Error:', error);
+      }
+  
+      function filterProducts() {
+        const searchText = searchInput.value.toLowerCase();
+        const selectedCategories = Array.from(categoryFilters)
+          .filter(checkbox => checkbox.checked)
+          .map(checkbox => checkbox.value);
+  
+        const filtered = productsData.filter(product => {
+          const matchesCategory = selectedCategories.includes(product.categoria);
+          const matchesSearch = product.nombre.toLowerCase().includes(searchText) || product.descripcion.toLowerCase().includes(searchText);
+          return matchesCategory && matchesSearch;
+        });
+  
+        renderProducts(filtered);
+      }
+  
+      searchInput.addEventListener('input', filterProducts);
+      searchButton.addEventListener('click', filterProducts);
+      categoryFilters.forEach(checkbox => checkbox.addEventListener('change', filterProducts));
+  
+      // Asegurar que el dropdown esté oculto al cargar la página
+      document.addEventListener('DOMContentLoaded', () => {
+        filterDropdown.style.display = 'none';
+        filterToggleButton.setAttribute('aria-expanded', 'false');
+
+        // Leer parámetro de categoría de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const categoriaParam = urlParams.get('categoria');
+        if (categoriaParam) {
+          // Marcar el checkbox correspondiente
+          categoryFilters.forEach(checkbox => {
+            checkbox.checked = checkbox.value === categoriaParam;
+          });
+          // Aplicar filtro automáticamente sin necesidad de interacción adicional
+          filterProducts();
+          // Mostrar el dropdown para que el usuario vea el filtro activo
+          filterDropdown.style.display = 'flex';
+          filterToggleButton.setAttribute('aria-expanded', 'true');
+        }
       });
-  </script>
+
+      filterToggleButton.addEventListener('click', () => {
+        const isDisplayed = filterDropdown.style.display === 'flex';
+        console.log('Toggle button clicked. Dropdown displayed:', isDisplayed);
+        if (!isDisplayed) {
+          filterDropdown.style.display = 'flex';
+          filterToggleButton.setAttribute('aria-expanded', 'true');
+          console.log('Dropdown opened');
+        } else {
+          filterDropdown.style.display = 'none';
+          filterToggleButton.setAttribute('aria-expanded', 'false');
+          console.log('Dropdown closed');
+        }
+      });
+
+      // Usar event delegation para el botón cerrar filtros
+      /*document.addEventListener('click', (event) => {
+        if (event.target && event.target.id === 'closeFilterDropdown') {
+          console.log('Close button clicked');
+          event.stopPropagation();
+          filterDropdown.style.display = 'none';
+          filterToggleButton.setAttribute('aria-expanded', 'false');
+        }
+      });*/
+
+      /* // Cerrar el dropdown si se hace clic fuera
+      document.addEventListener('click', (event) => {
+        if (
+          !filterToggleButton.contains(event.target) &&
+          !filterDropdown.contains(event.target) &&
+          event.target.id !== 'closeFilterDropdown'
+        ) {
+          console.log('Clicked outside dropdown, closing');
+          filterDropdown.setAttribute('hidden', '');
+          filterToggleButton.setAttribute('aria-expanded', 'false');
+        }
+      }); */
+    </script>
 
 </body>
 </html>

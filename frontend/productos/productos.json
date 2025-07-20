@@ -3,36 +3,49 @@
     "nombre": "Farol Decorativo",
     "precio": 7000,
     "imagen": "../Faroles/WhatsApp Image 2025-07-03 at 21.04.09_18ad1db2.jpg",
-    "descripcion": "Farol decorativo para ambientar tus fiestas"
+    "descripcion": "Farol decorativo para ambientar tus fiestas",
+    "categoria": "Faroles"
   },
   {
-    "nombre": "Farol Decorativo",
-    "precio": 7000,
-    "imagen": "../Faroles/WhatsApp Image 2025-07-03 at 21.04.14_6438e8ab.jpg",
-    "descripcion": "Farol decorativo para ambientar tus fiestas"
+    "nombre": "Piñata Tradicional",
+    "precio": 5000,
+    "imagen": "../Imagenes/pinata.jpg",
+    "descripcion": "Piñata tradicional para fiestas infantiles",
+    "categoria": "Piñatas"
   },
   {
-    "nombre": "Farol Decorativo",
-    "precio": 7000,
-    "imagen": "../Faroles/WhatsApp Image 2025-07-03 at 21.04.17_2d47a2dd.jpg",
-    "descripcion": "Farol decorativo para ambientar tus fiestas"
+    "nombre": "Bolsita Sorpresa",
+    "precio": 3000,
+    "imagen": "../Imagenes/bolsita.jpg",
+    "descripcion": "Bolsita con sorpresas para tus invitados",
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Farol Decorativo",
-    "precio": 7000,
-    "imagen": "../Faroles/WhatsApp Image 2025-07-03 at 21.04.09_18ad1db2.jpg",
-    "descripcion": "Farol decorativo para ambientar tus fiestas"
+    "nombre": "Accesorio Fiesta",
+    "precio": 2000,
+    "imagen": "../Imagenes/accesorio.jpg",
+    "descripcion": "Accesorios para complementar tu fiesta",
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Farol Decorativo",
-    "precio": 7000,
-    "imagen": "../Faroles/WhatsApp Image 2025-07-03 at 21.04.09_18ad1db2.jpg",
-    "descripcion": "Farol decorativo para ambientar tus fiestas"
+    "nombre": "Centro de Mesa Floral",
+    "precio": 8000,
+    "imagen": "../Imagenes/centro_mesa.jpg",
+    "descripcion": "Centro de mesa con flores naturales",
+    "categoria": "Centros de Mesa"
   },
   {
-    "nombre": "Farol Decorativo",
-    "precio": 7000,
-    "imagen": "../Faroles/WhatsApp Image 2025-07-03 at 21.04.09_18ad1db2.jpg",
-    "descripcion": "Farol decorativo para ambientar tus fiestas"
+    "nombre": "Photobooth Kit",
+    "precio": 10000,
+    "imagen": "../Imagenes/photobooth.jpg",
+    "descripcion": "Kit para photobooth divertido y original",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Decoración Variada",
+    "precio": 4000,
+    "imagen": "../Imagenes/decoracion_varios.jpg",
+    "descripcion": "Decoración variada para cualquier ocasión",
+    "categoria": "Otros"
   }
 ]
