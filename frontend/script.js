@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+ document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('comment-form');
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -15,17 +15,17 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       console.log('Respuesta recibida:', response);
       if (response.ok) {
-        alert('Comentario enviado con éxito');
+        // Comentario enviado con éxito, sin alertas
         form.reset();
         cargarComentarios();
       } else {
         const errorText = await response.text();
         console.error('Error al enviar comentario:', errorText);
-        alert('Error al enviar el comentario');
+        // No mostrar alerta de error
       }
     } catch (error) {
       console.error('Error de red al enviar el comentario:', error);
-      alert('Error de red al enviar el comentario');
+      // No mostrar alerta de error
     }
   });
 
