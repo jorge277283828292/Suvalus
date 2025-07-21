@@ -261,7 +261,7 @@ section {
   background-color: white;
   border-radius: 10px;
   padding: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(251, 82, 168, 0.15); /* sombra liviana color rosa */
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -289,13 +289,35 @@ section {
   gap: 0.75rem;
 }
 
+/* Quitar el círculo de imagen en comentarios */
 .testimonial .client img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 1rem;
-  object-fit: cover;
-  border: 2px solid var(--pink);
+  display: none;
+}
+
+/* Quitar la palabra "Cliente" debajo del nombre */
+.testimonial .client small {
+  display: none;
+}
+
+/* Mejorar estilo del textarea del formulario de comentarios */
+#comment-text {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: border-color 0.3s ease;
+  resize: vertical;
+}
+
+#comment-text:focus {
+  border-color: #ff4081;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 64, 129, 0.6);
 }
 
 footer {

@@ -1,13 +1,26 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Depends
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 from datetime import datetime
-import json
-import os
+from sqlalchemy.orm import Session
+from database import SessionLocal, engine
+from models import Base, Comentario
 
 app = FastAPI()
 
-COMMENTS_FILE = "backend/comments.json"
+# Configuración CORS para permitir peticiones desde cualquier origen (para pruebas)
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+Base.metadata.create_all(bind=engine)
 
 class ComentarioIn(BaseModel):
     nombre: str
@@ -17,46 +30,35 @@ class ComentarioOut(ComentarioIn):
     id: int
     fecha: datetime
 
-def read_comments() -> List[ComentarioOut]:
-    if not os.path.exists(COMMENTS_FILE):
-        return []
-    with open(COMMENTS_FILE, "r", encoding="utf-8") as f:
-        data = json.load(f)
-        # Convertir fecha de string a datetime
-        for item in data:
-            item["fecha"] = datetime.fromisoformat(item["fecha"])
-        return data
-
-def write_comments(comments: List[ComentarioOut]):
-    # Convertir fecha a string ISO para guardar en JSON
-    data = []
-    for c in comments:
-        data.append({
-            "id": c["id"],
-            "nombre": c["nombre"],
-            "comentario": c["comentario"],
-            "fecha": c["fecha"].isoformat() if isinstance(c["fecha"], datetime) else c["fecha"]
-        })
-    with open(COMMENTS_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
 
 @app.get("/comments", response_model=List[ComentarioOut])
-async def get_comments():
-    comments = read_comments()
-    # Ordenar por fecha descendente
-    comments.sort(key=lambda x: x["fecha"], reverse=True)
-    return comments
+async def get_comments(db: Session = Depends(get_db)):
+    comentarios = db.query(Comentario).order_by(Comentario.fecha.desc()).all()
+    return comentarios
+
+@app.get("/comments/random", response_model=List[ComentarioOut])
+async def get_random_comments(db: Session = Depends(get_db)):
+    from sqlalchemy.sql.expression import func as sql_func
+    comentarios = db.query(Comentario).order_by(sql_func.random()).limit(3).all()
+    return comentarios
 
 @app.post("/comments", response_model=ComentarioOut)
-async def post_comment(comment: ComentarioIn):
-    comments = read_comments()
-    new_id = max([c["id"] for c in comments], default=0) + 1
-    new_comment = {
-        "id": new_id,
-        "nombre": comment.nombre,
-        "comentario": comment.comentario,
-        "fecha": datetime.utcnow()
-    }
-    comments.append(new_comment)
-    write_comments(comments)
-    return new_comment
+async def post_comment(comment: ComentarioIn, db: Session = Depends(get_db)):
+    try:
+        nuevo_comentario = Comentario(
+            nombre=comment.nombre,
+            comentario=comment.comentario
+        )
+        db.add(nuevo_comentario)
+        db.commit()
+        db.refresh(nuevo_comentario)
+        return nuevo_comentario
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=f"Error al guardar comentario: {str(e)}")

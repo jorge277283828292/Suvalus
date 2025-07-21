@@ -1,4 +1,6 @@
 fastapi
 uvicorn
 typing
+sqlalchemy
+mysql-connector-python
 
