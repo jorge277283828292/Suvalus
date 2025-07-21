@@ -150,9 +150,16 @@
           });
           // Aplicar filtro automáticamente sin necesidad de interacción adicional
           filterProducts();
-          // Mostrar el dropdown para que el usuario vea el filtro activo
-          filterDropdown.style.display = 'flex';
-          filterToggleButton.setAttribute('aria-expanded', 'true');
+          // Forzar actualización visual de la galería
+          gallery.style.opacity = '0.5';
+          setTimeout(() => {
+            gallery.style.opacity = '1';
+            // Disparar evento click en el botón de búsqueda para simular la acción del usuario
+            searchButton.click();
+          }, 100);
+          // Ocultar el dropdown para que el usuario no tenga que interactuar
+          filterDropdown.style.display = 'none';
+          filterToggleButton.setAttribute('aria-expanded', 'false');
         }
       });
 
