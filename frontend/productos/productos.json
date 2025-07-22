@@ -1,35 +1,5 @@
  [
   {
-    "nombre": "Piñata Tradicional",
-    "imagen": "../Imagenes/pinata.jpg",
-    "categoria": "Pinatas"
-  },
-  {
-    "nombre": "Bolsita Sorpresa",
-    "imagen": "../Imagenes/bolsita.jpg",
-    "categoria": "Bolsitas"
-  },
-  {
-    "nombre": "Accesorio Fiesta",
-    "imagen": "../Imagenes/accesorio.jpg",
-    "categoria": "Accesorios"
-  },
-  {
-    "nombre": "Centro de Mesa Floral",
-    "imagen": "../Imagenes/centro_mesa.jpg",
-    "categoria": "Centros_de_Mesa"
-  },
-  {
-    "nombre": "Photobooth Kit",
-    "imagen": "../Imagenes/photobooth.jpg",
-    "categoria": "Photobooth"
-  },
-  {
-    "nombre": "Decoración Variada",
-    "imagen": "../Imagenes/decoracion_varios.jpg",
-    "categoria": "Otros"
-  },
-  {
     "nombre": "Bolsitas Unicornios",
     "imagen": "Img_Productos/475766670_1645498522953220_1007836620645071930_n.jpg",
     "categoria": "Bolsitas"
