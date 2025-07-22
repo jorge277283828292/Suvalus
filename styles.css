@@ -574,29 +574,13 @@ footer.index-footer {
 .carousel-right {
   display: flex;
   gap: 5px; /* Reducido de 8px a 5px */
-  overflow-x: scroll;
+  overflow-x: scroll; 
   scroll-behavior: smooth;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* IE 10+ */
 }
 
-.carousel-image {
-  width: 220px; /* Aumentado de 200px a 220px */
-  height: 160px; /* Aumentado de 140px a 160px */
-  object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-.carousel-image {
-  width: 180px; /* Aumentado de 150px a 180px */
-  height: 120px; /* Aumentado de 100px a 120px */
-  object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
+/* Removed duplicate carousel-image rules with cursor:pointer */
 
 .carousel-left::-webkit-scrollbar,
 .carousel-right::-webkit-scrollbar {
@@ -609,9 +593,10 @@ footer.index-footer {
   object-fit: cover;
   border-radius: 8px;
   transition: transform 0.3s ease;
-  cursor: pointer;
+  cursor: default;
 }
 
 .carousel-image:hover {
   transform: scale(1.1);
+  cursor: default;
 }
