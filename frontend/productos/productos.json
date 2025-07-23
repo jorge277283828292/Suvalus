@@ -22,7 +22,7 @@
   {
     "nombre": "Decoracion Minnie Mouse",
     "imagen": "Img_Productos/476156804_1648160642687008_8682995784201406941_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Piñata Minnie Mouse",
@@ -77,7 +77,7 @@
   {
     "nombre": "Letras de cumpleaños de Tractor",
     "imagen": "Img_Productos/480913554_1657222691780803_5971606422550680386_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Bolsita de la Sirenita",
@@ -87,7 +87,7 @@
   {
     "nombre": "Letras de Decoracion",
     "imagen": "Img_Productos/480938568_1666256074210798_2902381903107886729_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Piñata de Chase Paw Patrol",
@@ -107,7 +107,7 @@
   {
     "nombre": "Letras con Mensaje",
     "imagen": "Img_Productos/481085336_1666256010877471_750764776889568212_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Piñata de Luna",
@@ -122,7 +122,7 @@
   {
     "nombre": "",
     "imagen": "Img_Productos/481675050_1669026937267045_6176948443251228155_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Pinatas"
   },
   {
     "nombre": "Piñata de Blippi",
@@ -157,7 +157,7 @@
   {
     "nombre": "Sombrero de Emoji",
     "imagen": "Img_Productos/483522611_1679130872923318_4284834940216050177_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
     "nombre": "Prensa Tipica #4",
@@ -192,7 +192,7 @@
   {
     "nombre": "Sombrero con Moño",
     "imagen": "Img_Productos/484536705_1679130849589987_6363041136446522628_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
     "nombre": "Farol Casa Tipica #2",
@@ -212,7 +212,7 @@
   {
     "nombre": "Sombrero con Sol",
     "imagen": "Img_Productos/484988539_1679130692923336_3017469463954898992_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
     "nombre": "Bolsitas de Piña",
@@ -222,12 +222,12 @@
   {
     "nombre": "Gorras de Mario Bros Y Luigi",
     "imagen": "Img_Productos/485087676_1679130679590004_5398420709426384482_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
     "nombre": "Diadema de Renos",
     "imagen": "Img_Productos/485150696_1684755375694201_4725757947670959550_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Accesorios"
   },
   {
     "nombre": "Centro de Mesa de Barco Pirata",
@@ -247,7 +247,7 @@
   {
     "nombre": "Piñata de Granja",
     "imagen": "Img_Productos/485415896_1682656285904110_4511545620318445466_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Pinatas"
   },
   {
     "nombre": "Piñata de Skye",
@@ -262,7 +262,7 @@
   {
     "nombre": "Gorra de Pato",
     "imagen": "Img_Productos/485767435_1684755465694192_416393732930042276_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
     "nombre": "Lazo de Santa Claus",
@@ -317,17 +317,17 @@
   {
     "nombre": "Cartel de Partes del Cuerpo Humano",
     "imagen": "Img_Productos/486107471_1687205948782477_2955129891266565538_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Cartel de Batalla de Santa Rosa",
     "imagen": "Img_Productos/486207593_1687206032115802_6417960114376744814_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Piñata de Unicornio #2",
     "imagen": "Img_Productos/486258882_1688314728671599_7825009131984129793_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Pinatas"
   },
   {
     "nombre": "Piñata de los Muppets",
@@ -337,7 +337,7 @@
   {
     "nombre": "Cartel de Batalla de Rivas",
     "imagen": "Img_Productos/486323333_1687205695449169_6287997775859066574_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Caja de Regalo #2",
@@ -360,9 +360,9 @@
     "categoria": "Bolsitas"
   },
   {
-    "nombre": "",
+    "nombre": "Decoracion de Libro",
     "imagen": "Img_Productos/486610516_1688314945338244_7933864449727865079_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Piñata de Mariposa",
@@ -372,12 +372,12 @@
   {
     "nombre": "Decoracion de Guaria Morada",
     "imagen": "Img_Productos/486663437_1689540295215709_4776170743992262224_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Sombrero de Cangrejo",
     "imagen": "Img_Productos/486668808_1689281231908282_4570906630477858833_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
     "nombre": "Piñata de HotWheels",
@@ -412,7 +412,7 @@
   {
     "nombre": "Decoracion de Panal de Abejas",
     "imagen": "Img_Productos/486855368_1689281571908248_2508789207938566430_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Lazo Blanco Tipico",
@@ -422,17 +422,17 @@
   {
     "nombre": "Decoracion de Leon",
     "imagen": "Img_Productos/486941766_1687205618782510_7517563092899701418_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Lazo Rojo con Rosa",
     "imagen": "Img_Productos/487075434_1689281271908278_5751519842502068077_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Accesorios"
   },
   {
     "nombre": "Decoracion de Astronauta",
     "imagen": "Img_Productos/487079732_1689543711882034_463736326966321770_n.jpg",    
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Farol de Camion Azul",
@@ -447,7 +447,7 @@
   {
     "nombre": "Prensa Tipica #6",
     "imagen": "Img_Productos/487159379_1690268631809542_7519265812454878343_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Accesorios"
   },
   {
     "nombre": "Piñata de Mario Bros",
@@ -462,13 +462,13 @@
   {
     "nombre": "Sombrero Loco",
     "imagen": "Img_Productos/487309530_1692324418270630_4303169862086601920_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
 
   {
     "nombre": "Diademas de Bruja",
     "imagen": "Img_Productos/487391494_1691766694993069_8666971562965953242_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
     "nombre": "Mascaras Tiki",
@@ -533,12 +533,12 @@
   {
     "nombre": "Piñata de Moana #2",
     "imagen": "Img_Productos/487751115_1691766711659734_2242765366757025273_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Pinatas"
   },
   {
     "nombre": "Decoracion de Chimenea",
     "imagen": "Img_Productos/487760651_1692324228270649_1573669159243610309_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Piñatas Personalizadas",
@@ -548,17 +548,17 @@
   {
     "nombre": "Decoracion de Mickey Mouse y sus Amigos",
     "imagen": "Img_Productos/488243299_1694997958003276_5206669222571731565_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Casa de Up",
     "imagen": "Img_Productos/488255989_1694998174669921_2355524234511624623_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Cartel de Juan Santa Maria",
     "imagen": "Img_Productos/488922826_1702426140593791_3179963086880677658_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Piñata de Gatirena",
@@ -618,7 +618,7 @@
   {
     "nombre": "Cartel sobre las Abejas",
     "imagen": "Img_Productos/499209188_1730345034468568_5038818269412240222_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Vincha Flor Amarila",
@@ -628,17 +628,17 @@
   {
     "nombre": "Decoracionn Mariposa Azul",
     "imagen": "Img_Productos/499829870_1735468097289595_5383078967163352096_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Letras FEA",
     "imagen": "Img_Productos/500765442_1735467883956283_1469320510413592103_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Cartel sobre los Capibaras",
     "imagen": "Img_Productos/503849590_1744667283036343_7402844254173675808_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Farol de Escudo Nacional",
