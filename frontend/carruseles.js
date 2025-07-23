@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
   const folderPath = 'frontend/productos/Img_Productos/';
   const carouselLeft = document.getElementById('carousel-left');
   const carouselRight = document.getElementById('carousel-right');

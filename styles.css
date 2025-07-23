@@ -493,6 +493,12 @@ footer {
   .contact-form {
     max-width: 100%;
   }
+
+  /* Hide carousels on mobile */
+  .carousel-container,
+  .new-carousels {
+    display: none !important;
+  }
 }
 
 /* Ajuste para que el footer quede al fondo y el contenido centrado */

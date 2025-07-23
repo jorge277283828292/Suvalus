@@ -65,7 +65,7 @@
     "categoria": "Pinatas"
   },
   {
-    "nombre": "Caja de Regalo",
+    "nombre": "Caja de Regalo #1",
     "imagen": "Img_Productos/480479445_1656420065194399_4759969230525659617_n.jpg",    
     "categoria": "Otros"
   },
@@ -95,317 +95,384 @@
     "categoria": "Pinatas"  
   },
   {
-    "nombre": "Producto 22",
+    "nombre": "Piñata de Elsa",
     "imagen": "Img_Productos/481076633_1666256234210782_8793258253441842411_n.jpg",    
     "categoria": "Otros"
   },
   {
-    "nombre": "Producto 23",
-    "imagen": "Img_Productos/481082739_1666967254139680_2570897343768308680_n.jpg",    "categoria": "Otros"
+    "nombre": "Bolsitas de Regalo con Moño",
+    "imagen": "Img_Productos/481082739_1666967254139680_2570897343768308680_n.jpg",    
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 24",
-    "imagen": "Img_Productos/481085336_1666256010877471_750764776889568212_n.jpg",    "categoria": "Otros"
+    "nombre": "Letras con Mensaje",
+    "imagen": "Img_Productos/481085336_1666256010877471_750764776889568212_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 25",
-    "imagen": "Img_Productos/481218719_1660551861447886_2234623687353347505_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Luna",
+    "imagen": "Img_Productos/481218719_1660551861447886_2234623687353347505_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 26",
-    "imagen": "Img_Productos/481505530_1666256250877447_892421119496791587_n.jpg",    "categoria": "Otros"
+    "nombre": "Diadema Primera Comunion",
+    "imagen": "Img_Productos/481505530_1666256250877447_892421119496791587_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 27",
-    "imagen": "Img_Productos/481675050_1669026937267045_6176948443251228155_n.jpg",    "categoria": "Otros"
+    "nombre": "",
+    "imagen": "Img_Productos/481675050_1669026937267045_6176948443251228155_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 28",
-    "imagen": "Img_Productos/482061836_1666967164139689_1316570141540335990_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Blippi",
+    "imagen": "Img_Productos/482061836_1666967164139689_1316570141540335990_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 29",
-    "imagen": "Img_Productos/482093539_1666967267473012_5644382053493439053_n.jpg",    "categoria": "Otros"
+    "nombre": "Centro de Mesa Primera Comunion",
+    "imagen": "Img_Productos/482093539_1666967267473012_5644382053493439053_n.jpg",    
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 30",
-    "imagen": "Img_Productos/482200083_1666256070877465_2557124333818363543_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Frozen",
+    "imagen": "Img_Productos/482200083_1666256070877465_2557124333818363543_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 31",
-    "imagen": "Img_Productos/483487884_1676637853172620_6092714280204990476_n.jpg",    "categoria": "Otros"
+    "nombre": "Prensa Tipica #1",
+    "imagen": "Img_Productos/483487884_1676637853172620_6092714280204990476_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 32",
-    "imagen": "Img_Productos/483507549_1676637869839285_7500420710219780663_n.jpg",    "categoria": "Otros"
+    "nombre": "Prensa Tipica #2",
+    "imagen": "Img_Productos/483507549_1676637869839285_7500420710219780663_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 33",
-    "imagen": "Img_Productos/483508927_1676637493172656_7357638702087886297_n.jpg",    "categoria": "Otros"
+    "nombre": "Prensa Tipica #3",
+    "imagen": "Img_Productos/483508927_1676637493172656_7357638702087886297_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 34",
-    "imagen": "Img_Productos/483522611_1679130872923318_4284834940216050177_n.jpg",    "categoria": "Otros"
+    "nombre": "Sombrero de Emoji",
+    "imagen": "Img_Productos/483522611_1679130872923318_4284834940216050177_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 35",
-    "imagen": "Img_Productos/483523239_1676637863172619_207871851238718337_n.jpg",    "categoria": "Otros"
+    "nombre": "Prensa Tipica #4",
+    "imagen": "Img_Productos/483523239_1676637863172619_207871851238718337_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 36",
-    "imagen": "Img_Productos/483580079_1673341903502215_8858928063270600877_n.jpg",    "categoria": "Otros"
+    "nombre": "Vincha con Rosas Blancas",
+    "imagen": "Img_Productos/483580079_1673341903502215_8858928063270600877_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 37",
-    "imagen": "Img_Productos/484124061_1677790903057315_5151820811784930250_n.jpg",    "categoria": "Otros"
+    "nombre": "Farol con Palomas",
+    "imagen": "Img_Productos/484124061_1677790903057315_5151820811784930250_n.jpg",    
+    "categoria": "Faroles"
   },
   {
-    "nombre": "Producto 38",
-    "imagen": "Img_Productos/484316334_1677790983057307_484797763583366959_n.jpg",    "categoria": "Otros"
+    "nombre": "Farol con Nombre",
+    "imagen": "Img_Productos/484316334_1677790983057307_484797763583366959_n.jpg",    
+    "categoria": "Faroles"
   },
   {
-    "nombre": "Producto 39",
-    "imagen": "Img_Productos/484317351_1676637533172652_3249391544510876133_n.jpg",    "categoria": "Otros"
+    "nombre": "Prensa Tipica #5",
+    "imagen": "Img_Productos/484317351_1676637533172652_3249391544510876133_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 40",
-    "imagen": "Img_Productos/484323857_1678802522956153_8611993463354864905_n.jpg",    "categoria": "Otros"
+    "nombre": "Farol Casa Tipica #1",
+    "imagen": "Img_Productos/484323857_1678802522956153_8611993463354864905_n.jpg",    
+    "categoria": "Faroles"
   },
   {
-    "nombre": "Producto 41",
-    "imagen": "Img_Productos/484536705_1679130849589987_6363041136446522628_n.jpg",    "categoria": "Otros"
+    "nombre": "Sombrero con Moño",
+    "imagen": "Img_Productos/484536705_1679130849589987_6363041136446522628_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 42",
-    "imagen": "Img_Productos/484544308_1677790893057316_3085985500242183663_n.jpg",    "categoria": "Otros"
+    "nombre": "Farol Casa Tipica #2",
+    "imagen": "Img_Productos/484544308_1677790893057316_3085985500242183663_n.jpg",    
+    "categoria": "Faroles"
   },
   {
-    "nombre": "Producto 43",
-    "imagen": "Img_Productos/484648010_1679130879589984_2948218694061572572_n.jpg",    "categoria": "Otros"
+    "nombre": "Centro de Mesa de Jirafa",
+    "imagen": "Img_Productos/484648010_1679130879589984_2948218694061572572_n.jpg",    
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 44",
-    "imagen": "Img_Productos/484716205_1676637543172651_1972276142001760731_n.jpg",    "categoria": "Otros"
+    "nombre": "Vincha con Rosas de Colores",
+    "imagen": "Img_Productos/484716205_1676637543172651_1972276142001760731_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 45",
-    "imagen": "Img_Productos/484988539_1679130692923336_3017469463954898992_n.jpg",    "categoria": "Otros"
+    "nombre": "Sombrero con Sol",
+    "imagen": "Img_Productos/484988539_1679130692923336_3017469463954898992_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 46",
-    "imagen": "Img_Productos/485000192_1679130869589985_7767200234617313367_n.jpg",    "categoria": "Otros"
+    "nombre": "Bolsitas de Piña",
+    "imagen": "Img_Productos/485000192_1679130869589985_7767200234617313367_n.jpg",    
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 47",
-    "imagen": "Img_Productos/485087676_1679130679590004_5398420709426384482_n.jpg",    "categoria": "Otros"
+    "nombre": "Gorras de Mario Bros Y Luigi",
+    "imagen": "Img_Productos/485087676_1679130679590004_5398420709426384482_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 48",
-    "imagen": "Img_Productos/485150696_1684755375694201_4725757947670959550_n.jpg",    "categoria": "Otros"
+    "nombre": "Diadema de Renos",
+    "imagen": "Img_Productos/485150696_1684755375694201_4725757947670959550_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 49",
-    "imagen": "Img_Productos/485181569_1682010982635307_3508206675141864917_n.jpg",    "categoria": "Otros"
+    "nombre": "Centro de Mesa de Barco Pirata",
+    "imagen": "Img_Productos/485181569_1682010982635307_3508206675141864917_n.jpg",    
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 50",
-    "imagen": "Img_Productos/485324837_1682656442570761_8343134156114898075_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Unicornio #1",
+    "imagen": "Img_Productos/485324837_1682656442570761_8343134156114898075_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 51",
-    "imagen": "Img_Productos/485400221_1682011009301971_6427790330364647394_n.jpg",    "categoria": "Otros"
+    "nombre": "Centro de Mesa de Tinker Bell",
+    "imagen": "Img_Productos/485400221_1682011009301971_6427790330364647394_n.jpg",    
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 52",
-    "imagen": "Img_Productos/485415896_1682656285904110_4511545620318445466_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Granja",
+    "imagen": "Img_Productos/485415896_1682656285904110_4511545620318445466_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 53",
-    "imagen": "Img_Productos/485696265_1682656472570758_6260670923907707339_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Skye",
+    "imagen": "Img_Productos/485696265_1682656472570758_6260670923907707339_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 54",
-    "imagen": "Img_Productos/485729507_1682656469237425_870685897156784442_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Hatsune Miku",
+    "imagen": "Img_Productos/485729507_1682656469237425_870685897156784442_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 55",
-    "imagen": "Img_Productos/485767435_1684755465694192_416393732930042276_n.jpg",    "categoria": "Otros"
+    "nombre": "Gorra de Pato",
+    "imagen": "Img_Productos/485767435_1684755465694192_416393732930042276_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 56",
-    "imagen": "Img_Productos/485798483_1684755529027519_1726045104634351924_n.jpg",    "categoria": "Otros"
+    "nombre": "Lazo de Santa Claus",
+    "imagen": "Img_Productos/485798483_1684755529027519_1726045104634351924_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 57",
-    "imagen": "Img_Productos/485806046_1684755369027535_746185289294917608_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Bella",
+    "imagen": "Img_Productos/485806046_1684755369027535_746185289294917608_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 58",
-    "imagen": "Img_Productos/485838245_1684755479027524_6838234133936007892_n.jpg",    "categoria": "Otros"
+    "nombre": "Lazo Navideño #1",
+    "imagen": "Img_Productos/485838245_1684755479027524_6838234133936007892_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 59",
-    "imagen": "Img_Productos/485879352_1684755165694222_2850066275998151346_n.jpg",    "categoria": "Otros"
+    "nombre": "Lazo Navideño #2",
+    "imagen": "Img_Productos/485879352_1684755165694222_2850066275998151346_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 60",
-    "imagen": "Img_Productos/485881592_1684755282360877_7114370978643277053_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de One Piece",
+    "imagen": "Img_Productos/485881592_1684755282360877_7114370978643277053_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 61",
-    "imagen": "Img_Productos/486015286_1684755242360881_1014650955884367437_n.jpg",    "categoria": "Otros"
+    "nombre": "Lazo Navideño #3",
+    "imagen": "Img_Productos/486015286_1684755242360881_1014650955884367437_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 62",
-    "imagen": "Img_Productos/486034423_1684755362360869_5252091615535577330_n.jpg",    "categoria": "Otros"
+    "nombre": "Lazo Navideño #4",
+    "imagen": "Img_Productos/486034423_1684755362360869_5252091615535577330_n.jpg",    
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 63",
-    "imagen": "Img_Productos/486039422_1684755145694224_2083455082810810322_n.jpg",    "categoria": "Otros"
+    "nombre": "Centro de Mesa Sombrero de Graduacion",
+    "imagen": "Img_Productos/486039422_1684755145694224_2083455082810810322_n.jpg",    
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 64",
-    "imagen": "Img_Productos/486061158_1682010989301973_5372141975739410932_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Messi",
+    "imagen": "Img_Productos/486066944_1684755532360852_9072780556382286259_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 65",
-    "imagen": "Img_Productos/486066944_1684755532360852_9072780556382286259_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Santa Claus",
+    "imagen": "Img_Productos/486095409_1684755182360887_3026848399165619295_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 66",
-    "imagen": "Img_Productos/486095409_1684755182360887_3026848399165619295_n.jpg",    "categoria": "Otros"
+    "nombre": "Cartel de Partes del Cuerpo Humano",
+    "imagen": "Img_Productos/486107471_1687205948782477_2955129891266565538_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 67",
-    "imagen": "Img_Productos/486107471_1687205948782477_2955129891266565538_n.jpg",    "categoria": "Otros"
+    "nombre": "Cartel de Batalla de Santa Rosa",
+    "imagen": "Img_Productos/486207593_1687206032115802_6417960114376744814_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 68",
-    "imagen": "Img_Productos/486207593_1687206032115802_6417960114376744814_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de Unicornio #2",
+    "imagen": "Img_Productos/486258882_1688314728671599_7825009131984129793_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 69",
-    "imagen": "Img_Productos/486258882_1688314728671599_7825009131984129793_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata de los Muppets",
+    "imagen": "Img_Productos/486308579_1684755425694196_4536063964448579498_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 70",
-    "imagen": "Img_Productos/486308579_1684755425694196_4536063964448579498_n.jpg",    "categoria": "Otros"
+    "nombre": "Cartel de Batalla de Rivas",
+    "imagen": "Img_Productos/486323333_1687205695449169_6287997775859066574_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 71",
-    "imagen": "Img_Productos/486323333_1687205695449169_6287997775859066574_n.jpg",    "categoria": "Otros"
+    "nombre": "Caja de Regalo #2",
+    "imagen": "Img_Productos/486326372_1684755172360888_4416712598174216586_n.jpg",    
+    "categoria": "Otros"
   },
   {
-    "nombre": "Producto 72",
-    "imagen": "Img_Productos/486326372_1684755172360888_4416712598174216586_n.jpg",    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 73",
-    "imagen": "Img_Productos/486337091_1687206005449138_8947490349085550385_n.jpg",    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 74",
-    "imagen": "Img_Productos/486366496_1684755229027549_8222916324486203415_n.jpg",    "categoria": "Otros"
+    "nombre": "Piñata #1",
+    "imagen": "Img_Productos/486366496_1684755229027549_8222916324486203415_n.jpg",    
+    "categoria": "Pinatas"
   },
   {
     "nombre": "Producto 75",
-    "imagen": "Img_Productos/486469343_1684755372360868_445352265719284027_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486469343_1684755372360868_445352265719284027_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 76",
-    "imagen": "Img_Productos/486505978_1687205982115807_1212510485016631964_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486505978_1687205982115807_1212510485016631964_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 77",
-    "imagen": "Img_Productos/486537410_1684755232360882_8312601882924525424_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486537410_1684755232360882_8312601882924525424_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 78",
-    "imagen": "Img_Productos/486610516_1688314945338244_7933864449727865079_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486610516_1688314945338244_7933864449727865079_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 79",
-    "imagen": "Img_Productos/486612344_1688314732004932_4436566262422876987_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486612344_1688314732004932_4436566262422876987_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 80",
-    "imagen": "Img_Productos/486663437_1689540295215709_4776170743992262224_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486663437_1689540295215709_4776170743992262224_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 81",
-    "imagen": "Img_Productos/486668808_1689281231908282_4570906630477858833_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486668808_1689281231908282_4570906630477858833_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 82",
-    "imagen": "Img_Productos/486675437_1688314705338268_3989547561056587236_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486675437_1688314705338268_3989547561056587236_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 83",
-    "imagen": "Img_Productos/486701624_1687205698782502_2520138902999157579_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486701624_1687205698782502_2520138902999157579_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 84",
-    "imagen": "Img_Productos/486707751_1690268501809555_324665159426785065_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486707751_1690268501809555_324665159426785065_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 85",
-    "imagen": "Img_Productos/486708073_1689281021908303_7899085139647871082_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486708073_1689281021908303_7899085139647871082_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 86",
-    "imagen": "Img_Productos/486717717_1689281438574928_1581861487961489098_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486717717_1689281438574928_1581861487961489098_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 87",
-    "imagen": "Img_Productos/486721097_1689281371908268_2468681497100799704_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486721097_1689281371908268_2468681497100799704_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 88",
-    "imagen": "Img_Productos/486721253_1688314952004910_6170768731038750716_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486721253_1688314952004910_6170768731038750716_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 89",
-    "imagen": "Img_Productos/486745585_1688315032004902_8235278160723899939_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486745585_1688315032004902_8235278160723899939_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 90",
-    "imagen": "Img_Productos/486756518_1688019228701149_7475745215990573921_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486756518_1688019228701149_7475745215990573921_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 91",
-    "imagen": "Img_Productos/486825852_1689281285241610_551713000581967824_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486825852_1689281285241610_551713000581967824_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 92",
-    "imagen": "Img_Productos/486855368_1689281571908248_2508789207938566430_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486855368_1689281571908248_2508789207938566430_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 93",
-    "imagen": "Img_Productos/486914447_1689281261908279_317965834678577412_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486914447_1689281261908279_317965834678577412_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 94",
-    "imagen": "Img_Productos/486941766_1687205618782510_7517563092899701418_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/486941766_1687205618782510_7517563092899701418_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 95",
-    "imagen": "Img_Productos/487065960_1688314948671577_2695989094982946047_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/487065960_1688314948671577_2695989094982946047_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 96",
-    "imagen": "Img_Productos/487075434_1689281271908278_5751519842502068077_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/487075434_1689281271908278_5751519842502068077_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 97",
-    "imagen": "Img_Productos/487079732_1689543711882034_463736326966321770_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/487079732_1689543711882034_463736326966321770_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 98",
-    "imagen": "Img_Productos/487105890_1689540608549011_2575530823536547930_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/487105890_1689540608549011_2575530823536547930_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 99",
-    "imagen": "Img_Productos/487146211_1688314918671580_3727181159905369674_n.jpg",    "categoria": "Otros"
+    "imagen": "Img_Productos/487146211_1688314918671580_3727181159905369674_n.jpg",    
+    "categoria": "Otros"
   },
   {
     "nombre": "Producto 100",
@@ -675,11 +742,6 @@
   {
     "nombre": "Producto 153",
     "imagen": "Img_Productos/500195492_1735469877289417_2662395379465559789_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 154",
-    "imagen": "Img_Productos/500229392_1735468020622936_3145723727621479941_n.jpg",
     "categoria": "Otros"
   },
   {
