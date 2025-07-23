@@ -6,6 +6,24 @@
   <title>Suvalus - Productos</title>
   <!-- Enlazar estilos globales -->
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Reduce vertical spacing in filter dropdown */
+    #filterDropdown label {
+      padding: 4px 8px !important;
+      margin: 2px 0 !important;
+      font-size: 0.9em !important;
+      line-height: 1.1em !important;
+    }
+    #filterDropdown label input[type="checkbox"] {
+      transform: scale(0.8);
+      margin-right: 6px;
+    }
+    #resetFiltersButton {
+      padding: 6px 12px !important;
+      font-size: 0.9em !important;
+      margin-top: 6px !important;
+    }
+  </style>
 </head>
 <body class="index">
 
@@ -39,11 +57,12 @@
           <label><input type="checkbox" class="category-filter" value="Bolsitas" checked /> Bolsitas</label>
           <label><input type="checkbox" class="category-filter" value="Faroles" checked /> Faroles</label>
           <label><input type="checkbox" class="category-filter" value="Accesorios" checked /> Accesorios</label>
-          <label><input type="checkbox" class="category-filter" value="Centros_de_Mesa" checked /> Centros de Mesa</label>
+          <label><input type="checkbox" class="category-filter" value="Centros_ de_Mesa" checked /> Centros de Mesa</label>
           <label><input type="checkbox" class="category-filter" value="Photobooth" checked /> Photobooth</label>
-          <label><input type="checkbox" class="category-filter" value="Otros" checked /> Otros</label>
           <label><input type="checkbox" class="category-filter" value="Sombreros" checked /> Sombreros</label>
           <label><input type="checkbox" class="category-filter" value="Decoracion" checked /> Decoracion</label>
+          <label><input type="checkbox" class="category-filter" value="Otros" checked /> Otros</label>
+          <button id="resetFiltersButton" style="margin-top: 10px; padding: 8px 15px; cursor: pointer; background-color: #ff4081; color: white; border: none; border-radius: 5px; font-weight: bold;">Limpiar</button>
         </div>
       </div>
     </div>
@@ -106,6 +125,9 @@
           const button = document.createElement('button');
           button.className = 'btn';
           button.textContent = 'Ver Detalles';
+          button.addEventListener('click', () => {
+            openProductModal(product);
+          });
   
           cardContent.appendChild(h3);
           cardContent.appendChild(p);
@@ -163,6 +185,15 @@
           filterDropdown.style.display = 'none';
           filterToggleButton.setAttribute('aria-expanded', 'false');
         }
+
+        // Agregar evento para botón reiniciar filtros
+        const resetFiltersButton = document.getElementById('resetFiltersButton');
+        resetFiltersButton.addEventListener('click', () => {
+          categoryFilters.forEach(checkbox => {
+            checkbox.checked = true;
+          });
+          filterProducts();
+        });
       });
 
       filterToggleButton.addEventListener('click', () => {
@@ -201,6 +232,112 @@
           filterToggleButton.setAttribute('aria-expanded', 'false');
         }
       }); */
+
+      // Ventana modal para detalles del producto
+      const modal = document.createElement('div');
+      modal.id = 'productModal';
+      modal.style.position = 'fixed';
+      modal.style.top = '0';
+      modal.style.left = '0';
+      modal.style.width = '100%';
+      modal.style.height = '100%';
+      modal.style.backgroundColor = 'rgba(0,0,0,0.6)';
+      modal.style.display = 'none';
+      modal.style.justifyContent = 'center';
+      modal.style.alignItems = 'center';
+      modal.style.zIndex = '1000';
+
+      const modalContent = document.createElement('div');
+      modalContent.style.backgroundColor = '#fff';
+      modalContent.style.padding = '30px 25px';
+      modalContent.style.borderRadius = '12px';
+      modalContent.style.width = '320px';
+      modalContent.style.textAlign = 'center';
+      modalContent.style.position = 'relative';
+      modalContent.style.boxShadow = '0 4px 15px rgba(0,0,0,0.3)';
+      modalContent.style.fontFamily = "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+
+      const closeModalBtn = document.createElement('button');
+      closeModalBtn.textContent = '×';
+      closeModalBtn.style.position = 'absolute';
+      closeModalBtn.style.top = '10px';
+      closeModalBtn.style.right = '10px';
+      closeModalBtn.style.cursor = 'pointer';
+      closeModalBtn.style.backgroundColor = '#ff4081';
+      closeModalBtn.style.color = 'white';
+      closeModalBtn.style.border = 'none';
+      closeModalBtn.style.borderRadius = '5px';
+      closeModalBtn.style.padding = '5px 10px';
+      closeModalBtn.style.fontWeight = 'bold';
+
+      closeModalBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+
+      modalContent.appendChild(closeModalBtn);
+
+      const categoryInfo = document.createElement('p');
+      categoryInfo.id = 'modalCategory';
+      categoryInfo.style.fontWeight = 'bold';
+      categoryInfo.style.fontSize = '1.1em';
+      categoryInfo.style.marginBottom = '15px';
+      modalContent.appendChild(categoryInfo);
+
+      const priceInfo = document.createElement('p');
+      priceInfo.textContent = 'Para consultar el precio del producto escribe a este número +506-64209200';
+      priceInfo.style.marginBottom = '20px';
+      priceInfo.style.color = '#333';
+      priceInfo.style.fontSize = '0.95em';
+      modalContent.appendChild(priceInfo);
+
+      const containerDiv = document.createElement('div');
+      containerDiv.style.position = 'relative';
+      containerDiv.style.display = 'flex';
+      containerDiv.style.flexDirection = 'column';
+      containerDiv.style.justifyContent = 'center';
+      containerDiv.style.alignItems = 'center';
+      containerDiv.style.marginBottom = '60px';
+
+      const productImage = document.createElement('img');
+      productImage.id = 'modalProductImage';
+      productImage.style.width = '90px';
+      productImage.style.height = '90px';
+      productImage.style.objectFit = 'cover';
+      productImage.style.borderRadius = '8px';
+      productImage.style.position = 'relative';
+      productImage.style.zIndex = '2';
+
+      const contactButton = document.createElement('button');
+      contactButton.textContent = 'Contacto';
+      contactButton.style.padding = '10px 40px';
+      contactButton.style.cursor = 'pointer';
+      contactButton.style.backgroundColor = '#ff4081';
+      contactButton.style.color = 'white';
+      contactButton.style.border = 'none';
+      contactButton.style.borderRadius = '5px';
+      contactButton.style.fontWeight = 'bold';
+      contactButton.style.position = 'absolute';
+      contactButton.style.top = '120%';
+      contactButton.style.left = '50%';
+      contactButton.style.transform = 'translateX(-50%)';
+      contactButton.style.zIndex = '1';
+
+      contactButton.addEventListener('click', () => {
+        window.location.href = '../contacto/contacto.html';
+      });
+
+      containerDiv.appendChild(productImage);
+      containerDiv.appendChild(contactButton);
+      modalContent.appendChild(containerDiv);
+      modal.appendChild(modalContent);
+      document.body.appendChild(modal);
+
+      function openProductModal(product) {
+        categoryInfo.textContent = 'Categoría: ' + product.categoria;
+        productImage.src = product.imagen;
+        productImage.alt = product.nombre;
+        modal.style.display = 'flex';
+      }
     </script>
 
 </body>
