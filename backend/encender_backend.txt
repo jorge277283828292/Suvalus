@@ -1,3 +1,6 @@
 1 cd backend
 2 .\env\Scripts\Activate.ps1
 3 ./setup_env_and_run.bat
+
+git reset --hard HEAD
+

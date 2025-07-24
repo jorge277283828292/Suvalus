@@ -45,8 +45,8 @@
 
     <!-- Search and Filters -->
     <div class="filters-container">
-      <input type="text" id="searchInput" placeholder="Buscar productos..." aria-label="Buscar productos" />
-      <button id="searchButton" aria-label="Buscar">
+      <input type="search" id="searchInput" placeholder="Buscar productos..." aria-label="Buscar productos" style="padding-left: 35px; background: url('data:image/svg+xml;utf8,<svg fill=%22%23666%22 height=%2220%22 viewBox=%220 0 24 24%22 width=%2220%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 14C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z%22/></svg>') no-repeat 10px center; border-radius: 20px; border: 1px solid #ff4081; background-color: white;" />
+      <button id="searchButton" aria-label="Buscar" style="display:none;">
         🔍
       </button>
       <div class="filter-dropdown-container">
@@ -338,6 +338,65 @@
         productImage.alt = product.nombre;
         modal.style.display = 'flex';
       }
+    </script>
+
+    <!-- Incluir Fuse.js desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
+
+    <script>
+      // Inicializar Fuse.js después de cargar productsData
+      let fuse;
+      const options = {
+        keys: ['nombre', 'categoria'],
+        threshold: 0.4, // Ajusta la sensibilidad de la búsqueda
+        ignoreLocation: true,
+      };
+
+      function initializeFuse() {
+        fuse = new Fuse(productsData, options);
+      }
+
+      // Modificar filterProducts para usar Fuse.js
+      function filterProducts() {
+        const searchText = searchInput.value.trim();
+        const selectedCategories = Array.from(categoryFilters)
+          .filter(checkbox => checkbox.checked)
+          .map(checkbox => checkbox.value);
+
+        let filtered = productsData;
+
+        if (searchText.length > 0) {
+          const fuseResults = fuse.search(searchText);
+          filtered = fuseResults.map(result => result.item);
+        }
+
+        // Filtrar por categorías
+        filtered = filtered.filter(product => selectedCategories.includes(product.categoria));
+
+        renderProducts(filtered);
+      }
+
+      // Inicializar Fuse cuando se carguen los productos
+      fetch('productos.json')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Error al cargar el archivo JSON');
+          }
+          return response.json();
+        })
+        .then(products => {
+          productsData = products;
+          initializeFuse();
+          renderProducts(productsData);
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+
+      // Eventos para búsqueda y filtros
+      searchInput.addEventListener('input', filterProducts);
+      searchButton.addEventListener('click', filterProducts);
+      categoryFilters.forEach(checkbox => checkbox.addEventListener('change', filterProducts));
     </script>
 
 </body>
