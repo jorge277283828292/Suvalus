@@ -1,5 +1,635 @@
- [
+[
   {
+    "nombre": "Producto 1",
+    "imagen": "Img_Productos/119836909_3802391046457432_4236596524111214807_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 2",
+    "imagen": "Img_Productos/133132634_4096299903733210_4413676400547771088_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 3",
+    "imagen": "Img_Productos/138463588_4138704172826116_37960938687148280_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 4",
+    "imagen": "Img_Productos/139300940_4150089201687613_464039954251512207_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 5",
+    "imagen": "Img_Productos/139508014_4152916944738172_2829009277151748892_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 6",
+    "imagen": "Img_Productos/139829283_4150089041687629_8822557810311844207_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 7",
+    "imagen": "Img_Productos/139882763_4152917038071496_2382617523944102263_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 8",
+    "imagen": "Img_Productos/140065893_4152917134738153_7535506280980783233_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 9",
+    "imagen": "Img_Productos/140083576_4152917351404798_2317302969324236433_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 10",
+    "imagen": "Img_Productos/140135394_4152917224738144_7337385253171554158_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 11",
+    "imagen": "Img_Productos/141187372_4167039936659206_7781252083933109229_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 12",
+    "imagen": "Img_Productos/141251097_4157807387582461_4722943956072443952_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 13",
+    "imagen": "Img_Productos/143306994_4187397037956829_1533730304011058044_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 14",
+    "imagen": "Img_Productos/143595684_4188036231226243_280589592280883475_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 15",
+    "imagen": "Img_Productos/143910089_4187964557900077_4252485581595429993_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 16",
+    "imagen": "Img_Productos/150708952_4237968329566366_7404809677343148962_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 17",
+    "imagen": "Img_Productos/150863048_4239496819413517_7775556740911158747_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 18",
+    "imagen": "Img_Productos/150895126_4239495192747013_7362998972506120767_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 19",
+    "imagen": "Img_Productos/151705332_4239496479413551_7685770476082235351_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 20",
+    "imagen": "Img_Productos/158085225_4289106581119207_996397988874249090_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 21",
+    "imagen": "Img_Productos/161941671_4319472271415971_3190288811893973063_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 22",
+    "imagen": "Img_Productos/166432344_4359486140747917_3796455356493676509_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 23",
+    "imagen": "Img_Productos/167436748_4365169000179631_2534618420090071923_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 24",
+    "imagen": "Img_Productos/171954283_4393197874043410_4229964820635181000_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 25",
+    "imagen": "Img_Productos/172307206_4393198744043323_8276283307342688602_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 26",
+    "imagen": "Img_Productos/172521332_4393198247376706_5603804072324034311_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 27",
+    "imagen": "Img_Productos/172845364_4393388687357662_2439796284595002427_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 28",
+    "imagen": "Img_Productos/173886724_4402391976457333_250823006623519841_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 29",
+    "imagen": "Img_Productos/178771670_4442194535810410_495445997687753633_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 30",
+    "imagen": "Img_Productos/179521738_4454250124604851_6594028728792536654_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 31",
+    "imagen": "Img_Productos/180174951_4454259674603896_6874011386236048588_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 32",
+    "imagen": "Img_Productos/188888517_4516840758345787_4345387544459408961_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 33",
+    "imagen": "Img_Productos/195215959_4574657992564063_1316462931245783884_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 34",
+    "imagen": "Img_Productos/195654851_4562749033754959_3642189935767951785_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 35",
+    "imagen": "Img_Productos/195874636_4563665643663298_1475087226418194793_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 36",
+    "imagen": "Img_Productos/197760950_4574653695897826_2898585080637439111_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 37",
+    "imagen": "Img_Productos/202617108_4625424377487424_5759002508874215759_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 38",
+    "imagen": "Img_Productos/205208868_4611535445542984_3788026827781819623_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 39",
+    "imagen": "Img_Productos/209749781_4639598622736666_7196730644702270644_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 40",
+    "imagen": "Img_Productos/210591107_4645935938769601_8649738431581011921_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 41",
+    "imagen": "Img_Productos/212422596_4642771595752702_9053286118282064863_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 42",
+    "imagen": "Img_Productos/244912974_4940804555949403_9187035658608129536_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 43",
+    "imagen": "Img_Productos/470809947_9560317473998065_3309485902999778213_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 44",
+    "imagen": "Img_Productos/471207231_9560317443998068_6231574349391317408_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 45",
+    "imagen": "Img_Productos/471312064_9560317483998064_4558242924286351457_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 46",
+    "imagen": "Img_Productos/472222562_9650359171660561_5958638758761849417_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 47",
+    "imagen": "Img_Productos/472250866_9650359461660532_2784262086175881736_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 48",
+    "imagen": "Img_Productos/472839906_1627082361461503_3872347722396487621_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 49",
+    "imagen": "Img_Productos/472846720_1628579057978500_8903804877585712588_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 50",
+    "imagen": "Img_Productos/472948892_1630404127795993_1891153983857468500_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 51",
+    "imagen": "Img_Productos/473009115_1628579027978503_8755722817383286809_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 52",
+    "imagen": "Img_Productos/473063165_1628579017978504_8086110189734412585_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 53",
+    "imagen": "Img_Productos/473103116_1629309077905498_8059390955026509402_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 54",
+    "imagen": "Img_Productos/473116347_1628578991311840_8519377875676107793_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 55",
+    "imagen": "Img_Productos/473232287_1628579107978495_3224347533970203923_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 56",
+    "imagen": "Img_Productos/473236709_1630404067795999_695321088842380227_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 57",
+    "imagen": "Img_Productos/473707448_1633779567458449_1232461383506037620_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 58",
+    "imagen": "Img_Productos/473753698_1633779237458482_1456667558169782957_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 59",
+    "imagen": "Img_Productos/473813183_1633779570791782_5237972469245422207_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 60",
+    "imagen": "Img_Productos/473822545_1634497234053349_2126994885286796082_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 61",
+    "imagen": "Img_Productos/474059684_1633779394125133_1873891944578359873_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 62",
+    "imagen": "Img_Productos/474384137_1636362227200183_1723343136094397700_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 63",
+    "imagen": "Img_Productos/474396341_1636362107200195_6219574815760044044_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 64",
+    "imagen": "Img_Productos/474450673_1636676887168717_1393528788682635144_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 65",
+    "imagen": "Img_Productos/474559063_1636708933832179_6949364104341335679_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 66",
+    "imagen": "Img_Productos/474737652_1636676910502048_4008782137801215056_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 67",
+    "imagen": "Img_Productos/474758558_9745101652186312_7114455061738652804_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 68",
+    "imagen": "Img_Productos/474949345_1641361410033598_8463983619332823119_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 69",
+    "imagen": "Img_Productos/474949615_1641371616699244_74651640266608188_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 70",
+    "imagen": "Img_Productos/475140644_9757806490915828_2762148992967478575_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 71",
+    "imagen": "Img_Productos/475207507_1642047673298305_7968600072434926621_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 72",
+    "imagen": "Img_Productos/475259786_1642306616605744_1429835669597633176_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 73",
+    "imagen": "Img_Productos/475303395_1642473503255722_2402645479534555930_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 74",
+    "imagen": "Img_Productos/475308033_1642473523255720_4985550450920421543_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 75",
+    "imagen": "Img_Productos/475309563_1642473473255725_473868132527612316_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 76",
+    "imagen": "Img_Productos/475374980_1642038009965938_1139487331349193656_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 77",
+    "imagen": "Img_Productos/475428175_1641750319994707_8953511110996160095_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 78",
+    "imagen": "Img_Productos/475449876_1642306536605752_2520825092872308943_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 79",
+    "imagen": "Img_Productos/475501450_1642306693272403_6494993480165117179_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 80",
+    "imagen": "Img_Productos/475763819_1645498842953188_5015770103888877409_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 81",
+    "imagen": "Img_Productos/475765177_1645492379620501_2829411139183194138_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 82",
+    "imagen": "Img_Productos/475766391_1645492309620508_392384784961811552_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 83",
+    "imagen": "Img_Productos/475792686_9787351157961361_2812123861808613194_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 84",
+    "imagen": "Img_Productos/475816607_9787351147961362_732620902841600348_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 85",
+    "imagen": "Img_Productos/476089408_9787351254628018_2697954334274719191_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 86",
+    "imagen": "Img_Productos/476164145_1645498662953206_1454143574362637003_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 87",
+    "imagen": "Img_Productos/479183193_9863367317026411_631798263841247864_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 88",
+    "imagen": "Img_Productos/480135146_9863367300359746_8802747869134416100_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 89",
+    "imagen": "Img_Productos/480391922_9911595662203576_6927045731056695618_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 90",
+    "imagen": "Img_Productos/480442701_9904963702866772_8742807392539623011_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 91",
+    "imagen": "Img_Productos/480576333_9904963722866770_6542982630611513654_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 92",
+    "imagen": "Img_Productos/480689614_9911639052199237_6248747703250748599_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 93",
+    "imagen": "Img_Productos/480862452_9949393101757165_6186915657401199571_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 94",
+    "imagen": "Img_Productos/481225320_9969455519750923_5614441386864840682_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 95",
+    "imagen": "Img_Productos/481960034_10014870411876100_8357814350879838985_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 96",
+    "imagen": "Img_Productos/482024071_10014870755209399_8677075267401311379_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 97",
+    "imagen": "Img_Productos/482029922_10019735674722907_5319345949137252670_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 98",
+    "imagen": "Img_Productos/482089990_10014870671876074_181548930025552438_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 99",
+    "imagen": "Img_Productos/482207263_10014870385209436_965976617639899189_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 100",
+    "imagen": "Img_Productos/483803275_10043652862331188_6528697554794020790_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 101",
+    "imagen": "Img_Productos/483920725_10043652685664539_1429819069390296242_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 102",
+    "imagen": "Img_Productos/484072262_10068105343219273_8410924833827914542_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 103",
+    "imagen": "Img_Productos/484231413_10056383564391451_3667794248989139472_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 104",
+    "imagen": "Img_Productos/484318797_10043652642331210_6923402564654825729_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 105",
+    "imagen": "Img_Productos/484489358_10051242334905574_1137060641345873322_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 106",
+    "imagen": "Img_Productos/484564522_10051250354904772_3957191495620366011_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 107",
+    "imagen": "Img_Productos/484733027_10068105379885936_2319478372296911265_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 108",
+    "imagen": "Img_Productos/484820917_10051250238238117_6840293739216209698_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 109",
+    "imagen": "Img_Productos/485096773_10056383391058135_7075581583475995942_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 110",
+    "imagen": "Img_Productos/485390161_10082781188418355_2839475765750207244_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 111",
+    "imagen": "Img_Productos/485611802_10082781255085015_5437697963295438991_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 112",
+    "imagen": "Img_Productos/485701919_10088617047834769_2726891632391353689_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 113",
+    "imagen": "Img_Productos/485799578_10088618064501334_5184911295869903056_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 114",
+    "imagen": "Img_Productos/485805626_23871085299161377_7653504164317820462_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 115",
+    "imagen": "Img_Productos/486171497_23876019838667923_2734005754077809778_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 116",
+    "imagen": "Img_Productos/486506505_23876019715334602_431924155973640131_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 117",
+    "imagen": "Img_Productos/486555409_23884600827809824_6728182967001335910_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 118",
+    "imagen": "Img_Productos/486575640_23884600967809810_7787226397022048582_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 119",
+    "imagen": "Img_Productos/486606748_23866927982910442_427393283862508566_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 120",
+    "imagen": "Img_Productos/486811598_23884600971143143_1783544275243868593_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 121",
+    "imagen": "Img_Productos/486932593_23895869603349613_1954298250818627159_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 122",
+    "imagen": "Img_Productos/487149987_23901727316097175_1882475615428867667_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 123",
+    "imagen": "Img_Productos/487349659_23895869960016244_2623208478867031369_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 124",
+    "imagen": "Img_Productos/487437639_23901727306097176_4107852081953569454_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 125",
+    "imagen": "Img_Productos/487442780_23895869486682958_1814210737656308483_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Producto 126",
+    "imagen": "Img_Productos/487538254_23895869720016268_1598472491792601172_n.jpg",
+    "categoria": "Otros"
+  },
+   {
     "nombre": "Bolsitas Unicornios",
     "imagen": "Img_Productos/475766670_1645498522953220_1007836620645071930_n.jpg",
     "categoria": "Bolsitas"
@@ -744,5 +1374,6 @@
     "nombre": "Farol del Colibri",
     "imagen": "Img_Productos/WhatsApp Image 2025-07-03 at 21.04.17_804326d4.jpg",
     "categoria": "Faroles"
-  }
+}
+
 ]
