@@ -504,7 +504,15 @@ footer {
     margin-top: 0.5rem;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+  }
+
+  nav a {
+    margin-left: 0;
+  }
+
+  nav a:first-child {
+    margin-left: 0;
   }
 
   .contact-container {
