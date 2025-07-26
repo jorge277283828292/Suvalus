@@ -566,3 +566,23 @@ footer {
   width: auto;
   max-height: 60px;
 }
+
+/* Responsive adjustments for header and nav in productos.html */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .logo-link {
+    margin-bottom: 0.5rem;
+  }
+
+  nav {
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
