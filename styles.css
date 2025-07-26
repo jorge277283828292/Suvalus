@@ -492,8 +492,12 @@ footer {
 
   header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 1rem;
+  }
+
+  .logo-link {
+    margin-bottom: 0.5rem;
   }
 
   nav {
