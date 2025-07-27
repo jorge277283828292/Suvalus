@@ -36,11 +36,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
 }
 
 .logo-container {
@@ -56,7 +51,6 @@ header {
 
 nav {
   display: flex;
-  gap: 1.5rem;
 }
 
 nav a {
@@ -64,6 +58,11 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   transition: opacity 0.3s ease;
+  margin-left: 1.5rem;
+}
+
+nav a:first-child {
+  margin-left: 0;
 }
 
 nav a:hover {
@@ -570,42 +569,24 @@ footer {
   /* Responsive adjustments for header and nav in productos.html */
   @media (max-width: 768px) {
     header {
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
-      justify-content: flex-start;
       padding: 1rem;
-      gap: 10px;
     }
 
     .logo-link {
-      margin-bottom: 0;
-      display: flex;
-      align-items: center;
-    }
-
-    .logo-image {
-      display: inline-block;
-      vertical-align: middle;
-      max-height: 50px;
-      margin-right: 10px;
-      transform: none;
+      margin-bottom: 0.5rem;
     }
 
     nav {
-      margin-top: 0;
-      width: auto;
+      margin-top: 0.5rem;
+      width: 100%;
       display: flex;
-      justify-content: flex-start;
-      gap: 20px;
-      align-items: center;
-      margin-left: 20px;
+      justify-content: space-between;
     }
 
     nav a {
       margin-left: 0;
-      display: inline-block;
-      vertical-align: middle;
-      line-height: normal;
     }
 
     nav a:first-child {

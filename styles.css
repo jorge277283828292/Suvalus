@@ -488,6 +488,10 @@ footer {
     display: block;
     padding: 1rem 1rem;
     margin: 1rem auto;
+    width: 100% !important;
+    max-width: 100% !important;
+    align-items: stretch !important;
+    justify-content: flex-start !important;
   }
 
   header {
@@ -517,12 +521,33 @@ footer {
 
   .contact-container {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    padding: 0 1rem;
+    width: 100% !important;
+    max-width: none !important;
+    justify-content: flex-start !important;
+    background-color: #fff !important;
+    border-radius: 8px !important;
   }
 
   .contact-info,
   .contact-form {
-    max-width: 100%;
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0.5rem 1rem !important;
+    box-sizing: border-box !important;
+    background-color: #fff !important;
+    border-radius: 8px !important;
+  }
+
+  .contact-info {
+    text-align: left;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  .contact-info p {
+    line-height: 1.5;
   }
 
   /* Ajustes para el formulario de comentarios en móvil */
@@ -533,14 +558,18 @@ footer {
 
   #comment-form input,
   #comment-form textarea {
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0.75rem 1rem !important;
   }
 
   #comment-form button {
-    width: 100%;
-    max-width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0.75rem 1.5rem !important;
   }
 
   /* Hide carousels on mobile */
