@@ -77,6 +77,8 @@ nav a.active {
 .products-gallery {
   margin-top: 80px; /* Para que no se tape el header fijo */
   flex-grow: 1; /* Hace que esta sección ocupe todo el espacio disponible */
+  /* Add horizontal padding for spacing */
+  padding: 0 15px;
 }
 
 /* Contenedor de filtros */
@@ -91,9 +93,11 @@ nav a.active {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(251, 82, 168, 0.2);
   border: 1px solid #f9cde6;
-  max-width: 360px;
-  margin-left: auto;
-  margin-right: auto;
+  /* Removed max-width and margin auto to allow full width */
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* Input de búsqueda */
@@ -374,8 +378,10 @@ nav a.active {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-  max-width: 1200px;
-  margin: auto;
+  /* Removed max-width and margin auto to allow full width */
+  width: 100%;
+  max-width: none;
+  margin: 0;
 }
 
 .card {
