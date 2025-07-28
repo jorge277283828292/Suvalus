@@ -274,6 +274,21 @@ nav a.active {
     color: var(--purple);
     box-shadow: none;
   }
+
+  /* Mobile optimization for category boxes */
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    padding: 0 10px;
+  }
+
+  .card img {
+    height: 150px;
+  }
+
+  .card-content {
+    padding: 0.5rem;
+  }
 }
 
 /* Input de búsqueda */

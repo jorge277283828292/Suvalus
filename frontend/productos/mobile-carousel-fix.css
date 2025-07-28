@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  /* Mostrar carrusel en móvil */
+  .carousel-container,
+  .new-carousels {
+    display: flex !important;
+  }
+
+  /* Ajustes para el contenedor del carrusel */
+  .carousel-container {
+    overflow-x: auto;
+    padding: 0 10px;
+  }
+
+  .new-carousels {
+    margin: 20px 10px;
+    gap: 10px;
+  }
+
+  /* Ajustes para las imágenes del carrusel */
+  .carousel-image {
+    width: 120px;
+    height: 80px;
+    border-radius: 6px;
+  }
+
+  /* Ajustes para product cards en index.html */
+  .product-card {
+    width: 180px;
+    height: 220px;
+  }
+
+  .product-card img {
+    height: 120px;
+  }
+
+  .product-card .info {
+    padding: 0.5rem;
+  }
+
+  .product-card .info h3 {
+    font-size: 1rem;
+  }
+
+  .product-card .info p {
+    font-size: 0.85rem;
+  }
+
+  .product-card .info button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
