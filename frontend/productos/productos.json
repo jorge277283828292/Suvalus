@@ -1,5 +1,380 @@
 [
   {
+    "nombre": "Photobooth de Flores #2",
+    "imagen": "Img_Productos/104033461_3511719755524564_532242555605047927_n.jpg",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Letra K Floral",
+    "imagen": "Img_Productos/104181897_3511720045524535_2746700122867749091_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Caja de Regalo #3",
+    "imagen": "Img_Productos/107854058_3594920753871130_6881739632263747281_n.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Photobooth de Sirena",
+    "imagen": "Img_Productos/108924021_3601752593187946_6981999625529964450_n.jpg",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Piñata de Dinosaurio #3",
+    "imagen": "Img_Productos/117885749_3705412486155289_4605069788526172761_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata de Minion",
+    "imagen": "Img_Productos/117889187_3705412936155244_2463962391204783903_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata de Scooby Doo",
+    "imagen": "Img_Productos/117971397_3705412556155282_6177790856428804226_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata de Carrito de Minnie Mouse",
+    "imagen": "Img_Productos/117985426_3705413066155231_726106185597471286_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata de Bob Esponja",
+    "imagen": "Img_Productos/118063789_3705412896155248_8270551403367440239_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata de Moana #3",
+    "imagen": "Img_Productos/118081909_3705412732821931_4657273580632609545_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata de Carrito de los Hermanos Bros",
+    "imagen": "Img_Productos/118147408_3705412782821926_4276221978575938970_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata de Pollito",
+    "imagen": "Img_Productos/118159660_3705412406155297_2887795743409416631_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata #2 de Toy Story",
+    "imagen": "Img_Productos/118481646_3731116450251559_2877105170429023335_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Cajitas de Unicornio",
+    "imagen": "Img_Productos/118785600_3766509843378886_8684382052248300468_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajita de Batman",
+    "imagen": "Img_Productos/118890508_3766510286712175_8348183281190554771_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajita de Minecraft",
+    "imagen": "Img_Productos/118891720_3766508830045654_3198255605866559635_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajitas de Tik Tok",
+    "imagen": "Img_Productos/118910047_3766511150045422_7663681648943881596_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajita con Flor",
+    "imagen": "Img_Productos/118913149_3766509510045586_5840146934303889738_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajita de Minion",
+    "imagen": "Img_Productos/118930310_3766508466712357_6802421553735200614_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajita de Minnie Mouse #1",
+    "imagen": "Img_Productos/118931352_3766513043378566_9034336577333638861_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajita de Mario Bros",
+    "imagen": "Img_Productos/118932836_3766510546712149_5192083165992729692_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Centro de Mesa de Castillo Rosa",
+    "imagen": "Img_Productos/118937498_3766514033378467_4966821631771115981_n.jpg",
+    "categoria": "Centros_de_Mesa"
+  },
+  {
+    "nombre": "Cajita de Marshmello",
+    "imagen": "Img_Productos/118952818_3766513786711825_646179570133480036_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajita de Minnie Mouse #2",
+    "imagen": "Img_Productos/118997945_3766510060045531_3884692869759170917_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajitas de Mario y Luigi",
+    "imagen": "Img_Productos/119001737_3766508643379006_8044221349023524088_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajitas de Niños y Niñas",
+    "imagen": "Img_Productos/119005115_3774996732530197_478135839235614794_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajita de Spiderman",
+    "imagen": "Img_Productos/119006939_3766513513378519_8833743582755242405_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajitas Personalizadas",
+    "imagen": "Img_Productos/119058385_3774996302530240_4403783286629893313_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Piñata de Vanellope Ralph",
+    "imagen": "Img_Productos/119076180_3770205396342664_1793864484425367466_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata del Dia de Muertos",
+    "imagen": "Img_Productos/120595757_3847599608603242_4124762009026527234_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Bolsitas del Dia de Muertos",
+    "imagen": "Img_Productos/120624373_3847600578603145_3351525264510987546_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Decoracion de Duende Navideño",
+    "imagen": "Img_Productos/120899720_3857525070944029_5741761301320911771_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Decoracion de Faro Navideño",
+    "imagen": "Img_Productos/121058898_3863858946977308_2290255904726397717_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Piñata A con Flores",
+    "imagen": "Img_Productos/121320076_3873606129335923_7584594245146570653_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Piñata de Masha y el Oso",
+    "imagen": "Img_Productos/124635499_3974390159257519_8579346149120368235_n (1).jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Bolsitas de Payasos",
+    "imagen": "Img_Productos/124810049_3970059113023957_2922596475352665524_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Decoracion de Elefante",
+    "imagen": "Img_Productos/124958060_3975698062460062_6064374222879251247_n (1).jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Centros de Mesa de Payaso",
+    "imagen": "Img_Productos/125287967_3970059366357265_4162804703300402875_n (1).jpg",
+    "categoria": "Centros_de_Mesa"
+  },
+  {
+    "nombre": "Piñata de Elmo",
+    "imagen": "Img_Productos/126062712_3995628520467016_4182229008082445137_n (1).jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Photobooth de Granja #2",
+    "imagen": "Img_Productos/129318312_4033429353353599_7479945225532842294_n (1).jpg",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Cajitas de Graduacion",
+    "imagen": "Img_Productos/130291378_4035631609800040_821576668128221751_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Decoracion de Casita de Jengibre",
+    "imagen": "Img_Productos/130780592_4057055677657633_7167747732476705817_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Centro de Mesa de Baby Shower",
+    "imagen": "Img_Productos/130817605_4057057240990810_4025352553945046304_n (1).jpg",
+    "categoria": "Centros_de_Mesa"
+  },
+  {
+    "nombre": "Vincha de Copos de Nieve",
+    "imagen": "Img_Productos/131143660_4059032154126652_1065465916180174740_n.jpg",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Decoracion de Baby Shower",
+    "imagen": "Img_Productos/131466967_4057057507657450_1873013901288502560_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Photobooth de Graduacion",
+    "imagen": "Img_Productos/49151076_2422283527801531_8446381701042536448_n.jpg",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Photobooth de Baby Shower #2",
+    "imagen": "Img_Productos/49372205_2427796093916941_4374997534750277632_n.jpg",
+    "categoria": "Photobooth" 
+  },
+  {
+    "nombre": "Centro de Mesa de Elefante",
+    "imagen": "Img_Productos/49484231_2427795693916981_6608405022868766720_n.jpg",
+    "categoria": "Centros_de_Mesa"
+  },
+  {
+    "nombre": "Decoracionn de Santa Claus",
+    "imagen": "Img_Productos/49603573_2422282957801588_8047266423338172416_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Piñata de Vaca #3",
+    "imagen": "Img_Productos/50917505_2455910681105482_3036762351828205568_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Photobooth de Paw Patrol",
+    "imagen": "Img_Productos/54377080_2538832596146623_8464054185795518464_n.jpg",
+    "categoria": "Photobooth" 
+  },
+  {
+    "nombre": "Bolsitas de Jorge el Curioso",
+    "imagen": "Img_Productos/56191378_2561890577174158_2292557399761879040_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Sombrero de Granja",
+    "imagen": "Img_Productos/57404837_2593457384017477_332726542280949760_n.jpg",
+    "categoria": "Sombreros"
+  },
+  {
+    "nombre": "Sombrero de Tronco",
+    "imagen": "Img_Productos/59784152_2622339151129300_212854151078477824_n.jpg",
+    "categoria": "Sombreros"
+  },
+  {
+    "nombre": "Photobooth de Cars",
+    "imagen": "Img_Productos/60688729_2642315432465005_625454947487449088_n.jpg",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Piñata de Spider Man",
+    "imagen": "Img_Productos/64315867_2695718343791380_5217555665936973824_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Mascara de Mazinger Z",
+    "imagen": "Img_Productos/64533638_2695720053791209_8111799011335208960_n.jpg",
+    "categoria": "Sombreros"
+  },
+  {
+    "nombre": "Bolsitas de Conchas de Mar",
+    "imagen": "Img_Productos/66043467_2731355946894286_2012972419114860544_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Photobooth de Mar",
+    "imagen": "Img_Productos/66125042_2731355423561005_8715096007794229248_n.jpg",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Bolsitas de Sirenas",
+    "imagen": "Img_Productos/66385281_2731355126894368_8128351527531184128_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cajita de Mickey Mouse",
+    "imagen": "Img_Productos/67842947_2788014297895117_8056971726577205248_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Cuadro de Harry Potter",
+    "imagen": "Img_Productos/68467967_2799085400121340_8431205777699504128_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Cuadro de Escandalosos",
+    "imagen": "Img_Productos/69279691_2799085240121356_6087038105288704_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Bolsita de Elmo",
+    "imagen": "Img_Productos/69483088_2846044155425464_7605203444063797248_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
+    "nombre": "Sombrero del Rey Julien",
+    "imagen": "Img_Productos/69855678_2851507054879174_163817517322600448_n.jpg",
+    "categoria": "Sombreros"
+  },
+  {
+    "nombre": "Mascara de Marshmello",
+    "imagen": "Img_Productos/70042093_2851939711502575_2489018433765638144_n.jpg",
+    "categoria": "Sombreros"
+  },
+  {
+    "nombre": "Photobooth de los Avengers",
+    "imagen": "Img_Productos/71013852_2890926027603943_6455663453108436992_n.jpg",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Decoracion de Star Wars",
+    "imagen": "Img_Productos/71593600_2907758332587379_3822508442329808896_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Photobooth de las Muñecas LOL",
+    "imagen": "Img_Productos/72402658_2924441710919041_3414472809609428992_n.jpg",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Photobooth de Flores #3",
+    "imagen": "Img_Productos/72761863_2914400188589860_1912060040781496320_n.jpg",
+    "categoria": "Photobooth"
+  },
+  {
+    "nombre": "Piñata de Sirena #1",
+    "imagen": "Img_Productos/74880681_2996494800380398_6880035011119022080_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Decoracion Navideña",
+    "imagen": "Img_Productos/78831685_3051607951535749_3295659248104505344_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Piñata de Sirena #2",
+    "imagen": "Img_Productos/81800782_3131827110180499_5624353205614804992_n.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Decoracion de Perritas de Paw Patrol",
+    "imagen": "Img_Productos/84646648_3200655109964365_4593378982321192960_n.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Caja de Regalo #4",
+    "imagen": "Img_Productos/86290015_3215023315194211_5245900659089211392_n.jpg",
+    "categoria": "Bolsitas"
+  },
+  {
     "nombre": "Piñata de Mariposa #2",
     "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.29_7709e6f5.jpg",
     "categoria": "Pinatas"
@@ -1353,6 +1728,4 @@
     "imagen": "Img_Productos/WhatsApp Image 2025-07-03 at 21.04.17_804326d4.jpg",
     "categoria":"Faroles"
 }
-
-
 ]
