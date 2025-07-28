@@ -489,13 +489,16 @@ footer {
 @media (max-width: 768px) {
   .contact-section {
     display: block;
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 1.5rem !important;
+    margin: 1rem !important;
     justify-content: flex-start !important;
     align-items: flex-start !important;
     max-width: 100% !important;
-    width: 100% !important;
+    width: auto !important;
     box-sizing: border-box !important;
+    background-color: #fff !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
   }
 
   .contact-container {
