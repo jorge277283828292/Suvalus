@@ -486,8 +486,33 @@ footer {
 @media (max-width: 768px) {
   .contact-section {
     display: block;
-    padding: 1rem 1rem;
-    margin: 1rem auto;
+    padding: 0 !important;
+    margin: 0 !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .contact-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .contact-info a,
+  .contact-info p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
   }
 
   header {
@@ -518,11 +543,13 @@ footer {
   .contact-container {
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
 
   .contact-info,
   .contact-form {
-    max-width: 100%;
+    max-width: 100% !important;
+    padding: 0 1rem;
   }
 
   /* Ajustes para el formulario de comentarios en móvil */
