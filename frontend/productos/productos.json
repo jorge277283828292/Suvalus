@@ -1,5 +1,76 @@
 [
   {
+    "nombre": "Piñata de Mariposa #2",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.29_7709e6f5.jpg",
+    "categoria": "Pinatas"
+  },
+  {
+    "nombre": "Farol de Mariposa",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.29_a68b5c9d.jpg",
+    "categoria": "Faroles"
+  },
+  {
+    "nombre": "Prensa Tipica #7",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.30_d3541e73.jpg",
+    "categoria": "Accesorios"
+  },
+  
+  {
+    "nombre": "Prensa Tipica #8",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.36_8dae30af.jpg",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Prensa con Guaria Morada",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.36_b0948921.jpg",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Cartel sobre Cuidar al Mundo",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.37_2f83bf2f.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Decoracion Cientifica",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.37_50f975c6.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Cartel sobre la Guaria Morada",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.37_6ee20eec.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Cartel del Dia del Arbol",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.38_27539ae6.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Maqueta de Ciudad",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.38_5e223870.jpg",
+    "categoria": "Otros"
+  },
+  {
+    "nombre": "Decoracion de Arbol",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.39_8943999c.jpg",
+    "categoria": "Decoracion"
+  },
+  {
+    "nombre": "Prensas Personalizadas",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.39_bde540ec.jpg",
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Sombrero Loco #2",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.39_ee3ce1e9.jpg",
+    "categoria": "Sombreros"
+  },
+  {
+    "nombre": "Torre Eifel de Palitos",
+    "imagen": "Img_Productos/WhatsApp Image 2025-07-27 at 18.26.40_c7084622.jpg",
+    "categoria": "Decoracion"
+  },
+  {
     "nombre": "Piñata del Mountruo Comer Galletas",
     "imagen": "Img_Productos/119836909_3802391046457432_4236596524111214807_n.jpg",
     "categoria": "Pinatas"
@@ -1280,7 +1351,8 @@
   {
     "nombre": "Farol del Colibri",
     "imagen": "Img_Productos/WhatsApp Image 2025-07-03 at 21.04.17_804326d4.jpg",
-    "categoria": "Faroles"
+    "categoria":"Faroles"
 }
+
 
 ]

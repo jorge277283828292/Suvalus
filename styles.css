@@ -166,9 +166,12 @@ section {
 }
 
 .product-card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
 }
 
 .product-card .info {
@@ -486,7 +489,6 @@ footer {
 @media (max-width: 768px) {
   .contact-section {
     display: block;
-<<<<<<< HEAD
     padding: 0 !important;
     margin: 0 !important;
     justify-content: flex-start !important;
@@ -514,14 +516,12 @@ footer {
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
-=======
     padding: 1rem 1rem;
     margin: 1rem auto;
     width: 100% !important;
     max-width: 100% !important;
     align-items: stretch !important;
     justify-content: flex-start !important;
->>>>>>> cf70c13236440cd9e98382fb3e0d201ab9d06dea
   }
 
   header {
@@ -551,10 +551,8 @@ footer {
 
   .contact-container {
     flex-direction: column;
-<<<<<<< HEAD
     align-items: center;
     gap: 1rem;
-=======
     align-items: stretch;
     padding: 0 1rem;
     width: 100% !important;
@@ -562,15 +560,12 @@ footer {
     justify-content: flex-start !important;
     background-color: #fff !important;
     border-radius: 8px !important;
->>>>>>> cf70c13236440cd9e98382fb3e0d201ab9d06dea
   }
 
   .contact-info,
   .contact-form {
-<<<<<<< HEAD
     max-width: 100% !important;
     padding: 0 1rem;
-=======
     width: 100% !important;
     max-width: none !important;
     padding: 0.5rem 1rem !important;
@@ -587,7 +582,6 @@ footer {
 
   .contact-info p {
     line-height: 1.5;
->>>>>>> cf70c13236440cd9e98382fb3e0d201ab9d06dea
   }
 
   /* Ajustes para el formulario de comentarios en móvil */
@@ -781,9 +775,12 @@ footer.index-footer {
 }
 
 .carousel-image {
-  width: 150px;
-  height: 100px;
-  object-fit: cover;
+  display: block;
+  margin: auto;
+  max-width: 90%;
+  height: auto;
+  max-height: 100px;
+  object-fit: contain;
   border-radius: 8px;
   transition: transform 0.3s ease;
   cursor: default;
