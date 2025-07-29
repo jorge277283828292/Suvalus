@@ -209,30 +209,6 @@
           console.log('Dropdown closed');
         }
       });
-
-      // Usar event delegation para el botón cerrar filtros
-      /*document.addEventListener('click', (event) => {
-        if (event.target && event.target.id === 'closeFilterDropdown') {
-          console.log('Close button clicked');
-          event.stopPropagation();
-          filterDropdown.style.display = 'none';
-          filterToggleButton.setAttribute('aria-expanded', 'false');
-        }
-      });*/
-
-      /* // Cerrar el dropdown si se hace clic fuera
-      document.addEventListener('click', (event) => {
-        if (
-          !filterToggleButton.contains(event.target) &&
-          !filterDropdown.contains(event.target) &&
-          event.target.id !== 'closeFilterDropdown'
-        ) {
-          console.log('Clicked outside dropdown, closing');
-          filterDropdown.setAttribute('hidden', '');
-          filterToggleButton.setAttribute('aria-expanded', 'false');
-        }
-      }); */
-
       // Ventana modal para detalles del producto
       const modal = document.createElement('div');
       modal.id = 'productModal';
