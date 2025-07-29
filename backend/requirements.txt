@@ -3,4 +3,4 @@ uvicorn
 typing
 sqlalchemy
 mysql-connector-python
-
+better-profanity

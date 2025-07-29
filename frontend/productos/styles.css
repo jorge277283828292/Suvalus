@@ -20,7 +20,7 @@
 /* Tipografía y estilo general */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: var(--bg);
+  background-color: #f5f5f5e7;
   color: var(--text);
   line-height: 1.6;
   min-height: 100vh; /* Asegura que el body ocupe toda la altura de la ventana */
@@ -75,7 +75,7 @@ nav a.active {
 
 /* Sección de productos - Galería */
 .products-gallery {
-  margin-top: 80px; /* Para que no se tape el header fijo */
+  margin-top: 35px; /* Para que no se tape el header fijo */
   flex-grow: 1; /* Hace que esta sección ocupe todo el espacio disponible */
   /* Add horizontal padding for spacing */
   padding: 0 15px;
