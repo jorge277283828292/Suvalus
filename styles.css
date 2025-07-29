@@ -610,13 +610,21 @@ footer {
   }
 
   /* Hide carousels on mobile */
-  .carousel-container,
+  /* .carousel-container,
   .new-carousels {
     display: none !important;
-  }
+  } */
 }
 
 /* Tablet small devices */
+@media (max-width: 768px) {
+  .products {
+    max-width: 100% !important;
+    padding: 0 1rem !important;
+    box-sizing: border-box !important;
+  }
+}
+
 @media (min-width: 600px) and (max-width: 900px) {
   header {
     padding: 1rem 1.5rem;
