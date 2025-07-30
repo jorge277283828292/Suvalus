@@ -640,6 +640,90 @@ footer {
   } */
 }
 
+/* Ajustes para tablets y pantallas entre 600px y 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  .products {
+    max-width: 95% !important;
+    margin: 1rem auto !important;
+    padding: 1rem !important;
+  }
+
+  .carousel-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: var(--purple) transparent;
+    padding-bottom: 10px; /* Añadido para evitar espacio extra */
+  }
+
+  .carousel {
+    gap: 0.5rem !important; /* Reducido el gap para menos espacio */
+  }
+
+  .product-card {
+    width: 140px !important; /* Reducido el ancho para mejor ajuste */
+    height: 140px !important; /* Reducido el alto para mejor ajuste */
+    padding: 8px !important;
+  }
+
+  footer {
+    padding: 1rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  /* Flexbox para body y html para footer sticky en contacto */
+  body, html {
+    height: 100% !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  body > *:not(footer),
+  html > *:not(footer) {
+    flex: 1 0 auto !important;
+  }
+
+  footer {
+    flex-shrink: 0 !important;
+    text-align: center !important;
+    background: linear-gradient(90deg, var(--pink), var(--purple)) !important;
+    color: white !important;
+    padding: 1.5rem 1rem !important;
+    position: relative !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    margin-top: auto !important;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1100px) {
+  .products {
+    max-width: 98% !important;
+    margin: 1rem auto !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .carousel-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: var(--purple) transparent;
+    padding-bottom: 5px;
+    margin-right: 0 !important;
+  }
+
+  .carousel {
+    gap: 0.75rem !important;
+  }
+
+  .product-card {
+    width: 150px !important;
+    height: 150px !important;
+    padding: 8px !important;
+  }
+}
+
 /* Tablet small devices */
 @media (max-width: 768px) {
   .products {
