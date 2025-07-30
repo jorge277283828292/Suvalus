@@ -9,16 +9,42 @@ document.addEventListener('DOMContentLoaded', () => {
     errorContainer.textContent = '';
   });
   
+  // Validar que el nombre solo contenga letras y espacios
+  function validarNombre(nombre) {
+    const regex = /^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$/;
+    return regex.test(nombre);
+  }
+
+  // Filtrar groserías reemplazándolas por asteriscos
+  function filtrarGroserias(texto) {
+    const groserias = ['puta', 'mierda', 'coño', 'joder', 'gilipollas', 'cabron', 'pendejo', 'culo', 'chinga']; // Lista real de groserías
+    let textoFiltrado = texto;
+    groserias.forEach(groseria => {
+      const regex = new RegExp(groseria, 'gi');
+      textoFiltrado = textoFiltrado.replace(regex, '*'.repeat(groseria.length));
+    });
+    return textoFiltrado;
+  }
+
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const nombre = document.getElementById('comment-name').value;
-    const comentario = commentText.value;
-  
+    let nombre = document.getElementById('comment-name').value.trim();
+    let comentario = commentText.value.trim();
+
     errorContainer.style.display = 'none';
     errorContainer.textContent = '';
-  
+
+    if (!validarNombre(nombre)) {
+      errorContainer.textContent = 'El nombre solo puede contener letras y espacios.';
+      errorContainer.style.display = 'block';
+      return;
+    }
+
+    nombre = filtrarGroserias(nombre);
+    comentario = filtrarGroserias(comentario);
+
     console.log('Enviando comentario:', { nombre, comentario });
-  
+
     try {
       const response = await fetch('http://127.0.0.1:8000/comments', {
         method: 'POST',
