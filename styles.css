@@ -119,12 +119,18 @@ section {
   padding: 3rem 2rem;
 }
 
-.products,
+
 .about,
 .testimonials {
-  max-width: 1200px;
+  max-width: 1260px;
   margin: auto;
 }
+
+.products {
+  max-width: 1300px;
+  margin: auto;
+}
+
 
 .products h2 {
   text-align: center;
