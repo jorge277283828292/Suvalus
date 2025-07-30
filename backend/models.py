@@ -7,3 +7,4 @@ class Comentario(Base):
     nombre = Column(String(255), nullable=False)
     comentario = Column(String(1000), nullable=False)
     fecha = Column(DateTime(timezone=True), server_default=func.now())
+    estrellas = Column(Integer, nullable=False)

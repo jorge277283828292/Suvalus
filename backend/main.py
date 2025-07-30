@@ -36,10 +36,12 @@ Base.metadata.create_all(bind=engine)
 class ComentarioIn(BaseModel):
     nombre: str
     comentario: str
+    estrellas: int
 
 class ComentarioOut(ComentarioIn):
     id: int
     fecha: datetime
+    estrellas: int
 
 def get_db():
     db = SessionLocal()
@@ -67,7 +69,8 @@ async def post_comment(comment: ComentarioIn, db: Session = Depends(get_db)):
 
         nuevo_comentario = Comentario(
             nombre=comment.nombre,
-            comentario=comentario_filtrado
+            comentario=comentario_filtrado,
+            estrellas=comment.estrellas
         )
         db.add(nuevo_comentario)
         db.commit()

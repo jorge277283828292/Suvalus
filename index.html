@@ -144,11 +144,24 @@
     <div class="comment-form-container">
       <h3>Deja tu comentario</h3>
       <form id="comment-form">
-        <input type="text" id="comment-name" placeholder="Tu nombre" required />
+        <div style="display: flex; flex-direction: column; gap: 5px;">
+          <input type="text" id="comment-name" placeholder="Tu nombre" required />
+          <div class="rating-container" id="rating-container">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <input type="hidden" name="rating" id="rating-value" value="0" />
+          </div>
+        </div>
+
         <textarea id="comment-text" placeholder="Tu comentario" rows="4" required></textarea>
+
         <div id="comment-error" style="color: red; font-size: 0.9em; margin-top: 4px; display: none;"></div>
         <button type="submit">Enviar</button>
       </form>
+
     </div>
   </section>
 
