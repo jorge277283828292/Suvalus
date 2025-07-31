@@ -119,8 +119,10 @@
           const h3 = document.createElement('h3');
           h3.textContent = product.nombre;
   
-          const p = document.createElement('p');
-          p.textContent = product.descripcion;
+          // Crear párrafo para la categoría
+          const categoryP = document.createElement('p');
+          categoryP.textContent = 'Categoria: ' + product.categoria;
+          categoryP.className = 'product-category';
   
           const button = document.createElement('button');
           button.className = 'btn';
@@ -130,7 +132,7 @@
           });
   
           cardContent.appendChild(h3);
-          cardContent.appendChild(p);
+          cardContent.appendChild(categoryP);
           cardContent.appendChild(button);
   
           card.appendChild(img);
@@ -202,9 +204,9 @@
         if (!isDisplayed) {
           filterDropdown.style.display = 'flex';
           filterToggleButton.setAttribute('aria-expanded', 'true');
-          console.log('Dropdown opened');
-        } else {
-          filterDropdown.style.display = 'none';
+          console.lo('Dropdown opened');
+        }  else {
+          filterDropdogwn.style.display = 'none';
           filterToggleButton.setAttribute('aria-expanded', 'false');
           console.log('Dropdown closed');
         }

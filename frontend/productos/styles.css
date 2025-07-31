@@ -1,4 +1,4 @@
-  /* Variables de colores */
+    /* Variables de colores */
 :root {
   --pink: #FB52A8;
   --orange: #FD9A38;
@@ -428,8 +428,20 @@ nav a.active {
 
 .card-content h3 {
   font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   color: var(--text);
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.5rem;
 }
 
 .card-content p {
