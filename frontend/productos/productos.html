@@ -121,7 +121,8 @@
   
           // Crear párrafo para la categoría
           const categoryP = document.createElement('p');
-          categoryP.textContent = 'Categoria: ' + product.categoria;
+          const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : product.categoria;
+          categoryP.textContent = 'Categoria: ' + categoriaMostrar;
           categoryP.className = 'product-category';
   
           const button = document.createElement('button');
@@ -204,9 +205,9 @@
         if (!isDisplayed) {
           filterDropdown.style.display = 'flex';
           filterToggleButton.setAttribute('aria-expanded', 'true');
-          console.lo('Dropdown opened');
+          console.log('Dropdown opened');
         }  else {
-          filterDropdogwn.style.display = 'none';
+          filterDropdown.style.display = 'none';
           filterToggleButton.setAttribute('aria-expanded', 'false');
           console.log('Dropdown closed');
         }
@@ -311,7 +312,8 @@
       document.body.appendChild(modal);
 
       function openProductModal(product) {
-        categoryInfo.textContent = 'Categoría: ' + product.categoria;
+        const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : product.categoria;
+        categoryInfo.textContent = 'Categoría: ' + categoriaMostrar;
         productImage.src = product.imagen;
         productImage.alt = product.nombre;
         modal.style.display = 'flex';
