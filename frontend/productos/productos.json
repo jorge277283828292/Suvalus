@@ -195,11 +195,6 @@
     "categoria": "Pinatas"
   },
   {
-    "nombre": "Photobooth de Granja #2",
-    "imagen": "Img_Productos/129318312_4033429353353599_7479945225532842294_n (1).jpg",
-    "categoria": "Photobooth"
-  },
-  {
     "nombre": "Cajitas de Graduacion",
     "imagen": "Img_Productos/130291378_4035631609800040_821576668128221751_n.jpg",
     "categoria": "Bolsitas"
@@ -681,16 +676,6 @@
     "categoria": "Decoracion"
   },
   {
-    "nombre": "Decoracion del Chavo del Ocho",
-    "imagen": "Img_Productos/472846720_1628579057978500_8903804877585712588_n.jpg",
-    "categoria": "Decoracion"
-  },
-  {
-    "nombre": "Decoracion de Unicornio",
-    "imagen": "Img_Productos/472948892_1630404127795993_1891153983857468500_n.jpg",
-    "categoria": "Decoracion"
-  },
-  {
     "nombre": "Photobooth de Tractor",
     "imagen": "Img_Productos/473103116_1629309077905498_8059390955026509402_n.jpg",
     "categoria": "Photobooth"
@@ -1068,11 +1053,6 @@
     "categoria": "Bolsitas"
   },
   {
-    "nombre": "Letras de Decoracion",
-    "imagen": "Img_Productos/480938568_1666256074210798_2902381903107886729_n.jpg",    
-    "categoria": "Decoracion"
-  },
-  {
     "nombre": "Piñata de Chase Paw Patrol",
     "imagen": "Img_Productos/481061874_1666256247544114_8011297099248344420_n.jpg",    
     "categoria": "Pinatas"  
@@ -1098,18 +1078,8 @@
     "categoria": "Pinatas"
   },
   {
-    "nombre": "Diadema Primera Comunion",
-    "imagen": "Img_Productos/481505530_1666256250877447_892421119496791587_n.jpg",    
-    "categoria": "Accesorios"
-  },
-  {
     "nombre": "Piñata de Parlante Rosa",
     "imagen": "Img_Productos/481675050_1669026937267045_6176948443251228155_n.jpg",    
-    "categoria": "Pinatas"
-  },
-  {
-    "nombre": "Piñata de Blippi",
-    "imagen": "Img_Productos/482061836_1666967164139689_1316570141540335990_n.jpg",    
     "categoria": "Pinatas"
   },
   {
@@ -1729,11 +1699,6 @@
     "categoria":"Faroles"
 },
   {
-    "nombre": "Producto 1",
-    "imagen": "Img_Productos/118947119_3766513253378545_4045940042254982513_n.jpg",
-    "categoria": "Otros"
-  },
-  {
     "nombre": "Producto 2",
     "imagen": "Img_Productos/121539637_3886597058036830_4552405464643978438_n.jpg",
     "categoria": "Otros"
@@ -1779,11 +1744,6 @@
     "categoria": "Otros"
   },
   {
-    "nombre": "Producto 11",
-    "imagen": "Img_Productos/126169999_3995626943800507_1470086361879724498_n.jpg",
-    "categoria": "Otros"
-  },
-  {
     "nombre": "Producto 12",
     "imagen": "Img_Productos/126299844_3995628700466998_2471043851573712505_n.jpg",
     "categoria": "Otros"
@@ -1814,11 +1774,6 @@
     "categoria": "Otros"
   },
   {
-    "nombre": "Producto 18",
-    "imagen": "Img_Productos/33922965_2085656291464258_6200929063041761280_n.jpg",
-    "categoria": "Otros"
-  },
-  {
     "nombre": "Producto 19",
     "imagen": "Img_Productos/34011437_2085656068130947_1031854429596286976_n.jpg",
     "categoria": "Otros"
@@ -1831,11 +1786,6 @@
   {
     "nombre": "Producto 21",
     "imagen": "Img_Productos/34339956_2093189094044311_4014315063224565760_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 22",
-    "imagen": "Img_Productos/34340984_2093189624044258_7462651924731396096_n.jpg",
     "categoria": "Otros"
   },
   {
@@ -1901,11 +1851,6 @@
   {
     "nombre": "Producto 35",
     "imagen": "Img_Productos/36460753_2135419133154640_8064581682776244224_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 36",
-    "imagen": "Img_Productos/36550969_2134821409881079_6571408604077752320_n.jpg",
     "categoria": "Otros"
   },
   {
@@ -2268,11 +2213,7 @@
     "imagen": "Img_Productos/514778544_24635978236005409_1153658986001358334_n (1).jpg",
     "categoria": "Otros"
   },
-  {
-    "nombre": "Producto 109",
-    "imagen": "Img_Productos/514778544_24635978236005409_1153658986001358334_n.jpg",
-    "categoria": "Otros"
-  },
+
   {
     "nombre": "Producto 110",
     "imagen": "Img_Productos/514790180_24675886698681229_468675967618306423_n.jpg",
@@ -2526,11 +2467,6 @@
   {
     "nombre": "Producto 160",
     "imagen": "Img_Productos/515257735_24645901988346367_2388081839829645771_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 161",
-    "imagen": "Img_Productos/515258031_24648332811436618_1125066731463007984_n.jpg",
     "categoria": "Otros"
   },
   {
@@ -2944,11 +2880,6 @@
     "categoria": "Otros"
   },
   {
-    "nombre": "Producto 244",
-    "imagen": "Img_Productos/515512138_24659352723667960_3134710322813623748_n.jpg",
-    "categoria": "Otros"
-  },
-  {
     "nombre": "Producto 245",
     "imagen": "Img_Productos/515513185_24658491043754128_5144739757869494621_n.jpg",
     "categoria": "Otros"
@@ -3031,11 +2962,6 @@
   {
     "nombre": "Producto 261",
     "imagen": "Img_Productos/515553725_24660594566877109_9092100150588172131_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 262",
-    "imagen": "Img_Productos/515557768_24680010548268844_5467377987533544126_n.jpg",
     "categoria": "Otros"
   },
   {
@@ -3426,11 +3352,6 @@
   {
     "nombre": "Producto 340",
     "imagen": "Img_Productos/516326475_24684396571163575_2326062987722011493_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 341",
-    "imagen": "Img_Productos/516336418_24656691063934126_2344108139636637487_n.jpg",
     "categoria": "Otros"
   },
   {
