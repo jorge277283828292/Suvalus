@@ -128,8 +128,35 @@
 
   <!-- New Carousels Section -->
   <section class="new-carousels">
-    <div style="width: 100%; height: 200px; background-color: #ccc; display: flex; justify-content: center; align-items: center;">
-      <p style="color: #666; font-size: 1.5rem;">Próximamente collage de imágenes</p>
+    <style>
+      @media (max-width: 600px) {
+        .image-collage {
+          height: auto !important;
+          overflow-y: visible !important;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        }
+        .image-collage img.collage-image {
+          width: 45% !important;
+          height: auto !important;
+          margin-bottom: 10px;
+          border-radius: 8px;
+        }
+      }
+    </style>
+    <div class="image-collage" style="width: 100%; height: auto; background-color: #ccc; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px; padding: 10px; overflow-y: visible;">
+      <!-- Plantilla para imágenes -->
+      <img src="frontend/Imagenes/Imagenes_Index/34340984_2093189624044258_7462651924731396096_n.jpg" alt="Imagen 1" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; background-color: #eee;" />
+      <img src="frontend/Imagenes/Imagenes_Index/126169999_3995626943800507_1470086361879724498_n (1).jpg" alt="Imagen 2" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; background-color: #eee;" />
+      <img src="frontend/Imagenes/Imagenes_Index/472846720_1628579057978500_8903804877585712588_n.jpg" alt="Imagen 3" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; background-color: #eee;" />
+      <img src="frontend/Imagenes/Imagenes_Index/472948892_1630404127795993_1891153983857468500_n.jpg" alt="Imagen 4" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; background-color: #eee;" />
+      <img src="frontend/Imagenes/Imagenes_Index/486167395_23866917272911513_7024521135336290139_n.jpg" alt="Imagen 5" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px background-color: #eee;" />
+      <img src="frontend/Imagenes/Imagenes_Index/482061836_1666967164139689_1316570141540335990_n.jpg" alt="Imagen 6" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; background-color: #eee;" />
+      <img src="frontend/Imagenes/Imagenes_Index/48376065_2391000834263134_5444879776584040448_n.jpg" alt="Imagen 7" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; background-color: #eee;" />
+      <img src="frontend/Imagenes/Imagenes_Index/486708073_1689281021908303_7899085139647871082_n.jpg" alt="Imagen 8" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; background-color: #eee;" />
+      <img src="frontend/Imagenes/Imagenes_Index/515258031_24648332811436618_1125066731463007984_n.jpg" alt="Imagen 9" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; background-color: #eee;" />
+      <img src="frontend/Imagenes/Imagenes_Index/515557768_24680010548268844_5467377987533544126_n.jpg" alt="Imagen 10" class="collage-image" style="width: 200px; height: 200px; object-fit: cover; border-radius: 8px; background-color: #eee;" />
     </div>
   </section>
 
