@@ -679,8 +679,12 @@ footer {
 
   .product-card {
     width: 140px !important; /* Reducido el ancho para mejor ajuste */
-    height: 140px !important; /* Reducido el alto para mejor ajuste */
+    height: auto !important;
     padding: 8px !important;
+  }
+
+  .product-card img {
+    height: 100px !important;
   }
 
   footer {
@@ -738,6 +742,16 @@ footer {
     width: 150px !important;
     height: 150px !important;
     padding: 8px !important;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1400px) {
+  .product-card {
+    height: auto !important;
+  }
+
+  .product-card img {
+    height: 100px !important;
   }
 }
 
