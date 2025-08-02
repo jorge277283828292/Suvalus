@@ -433,10 +433,10 @@ footer {
 
 /* Estilos para la sección de contacto */
 .contact-section {
-  padding: 3rem 2rem;
+  padding: 1rem 2rem;
   background-color: #f9f9f9;
   max-width: 1200px;
-  margin: 2rem auto;
+  margin: 0.5rem auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
@@ -553,8 +553,8 @@ footer {
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
-    padding: 1rem 1rem;
-    margin: 1rem auto;
+    padding: 0.6rem !important;
+    margin: 0.3rem 0 !important;
     width: 100% !important;
     max-width: 100% !important;
     align-items: stretch !important;
@@ -619,6 +619,11 @@ footer {
 
   .contact-info p {
     line-height: 1.5;
+    margin-bottom: 0.3rem !important;
+  }
+
+  .contact-info h2 {
+    margin-bottom: 0.5rem !important;
   }
 
   /* Ajustes para el formulario de comentarios en móvil */
@@ -642,12 +647,6 @@ footer {
     margin: 0 !important;
     padding: 0.75rem 1.5rem !important;
   }
-
-  /* Hide carousels on mobile */
-  /* .carousel-container,
-  .new-carousels {
-    display: none !important;
-  } */
 }
 
 /* Ajustes para tablets y pantallas entre 600px y 900px */
@@ -656,6 +655,14 @@ footer {
     max-width: 95% !important;
     margin: 1rem auto !important;
     padding: 1rem !important;
+  }
+
+  .contact-info p {
+    margin-bottom: 0.1rem !important;
+  }
+
+  .contact-info h2 {
+    margin-bottom: 0.1rem !important;
   }
 
   .carousel-container {
@@ -793,7 +800,7 @@ footer {
   }
 
   .contact-section {
-    padding: 2rem 1rem;
+    padding: 0.5rem 0.5rem;
   }
 
   .testimonial-cards {
