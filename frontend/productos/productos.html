@@ -23,6 +23,9 @@
       font-size: 0.9em !important;
       margin-top: 6px !important;
     }
+    #clearSearch {
+      cursor: pointer;
+    }
   </style>
 </head>
 <body class="index">
@@ -45,7 +48,20 @@
 
     <!-- Search and Filters -->
     <div class="filters-container">
-      <input type="search" id="searchInput" placeholder="Buscar productos..." aria-label="Buscar productos" style="padding-left: 35px; background: url('data:image/svg+xml;utf8,<svg fill=%22%23666%22 height=%2220%22 viewBox=%220 0 24 24%22 width=%2220%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 14C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z%22/></svg>') no-repeat 10px center; border-radius: 20px; border: 1px solid #ff4081; background-color: white;" />
+      <input type="search" id="searchInput" placeholder="Buscar productos..." aria-label="Buscar productos" style="padding-left: 35px; background: url('data:image/svg+xml;utf8,<svg fill=%22%23666%22 height=%2220%22 viewBox=%220 0 24 24%22 width=%2220%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 14C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z%22/></svg>') no-repeat 10px center; border-radius: 20px; border: 1px solid #ff4081; background-color: white; cursor: text;" />
+      <button id="clearSearch" title="Limpiar búsqueda" style="position: absolute; right: 120px; top: 10px; background: none; border: none; cursor: pointer; font-size: 18px; color: #666; display: none; cursor: pointer;">×</button>
+      <style>
+        #clearSearch {
+          cursor: pointer;
+          font-size: 18px;
+          padding: 0 5px;
+          user-select: none;
+        }
+        #clearSearch:hover {
+          cursor: pointer;
+          color: #ff4081;
+        }
+      </style>
       <button id="searchButton" aria-label="Buscar" style="display:none;">
         🔍
       </button>
