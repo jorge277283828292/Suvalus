@@ -121,7 +121,7 @@
   
           // Crear párrafo para la categoría
           const categoryP = document.createElement('p');
-          const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : product.categoria;
+          const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : product.categoria.replace(/_/g, ' ');
           categoryP.textContent = 'Categoria: ' + categoriaMostrar;
           categoryP.className = 'product-category';
   
@@ -312,7 +312,7 @@
       document.body.appendChild(modal);
 
       function openProductModal(product) {
-        const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : product.categoria;
+        const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : product.categoria.replace(/_/g, ' ');
         categoryInfo.textContent = 'Categoría: ' + categoriaMostrar;
         productImage.src = product.imagen;
         productImage.alt = product.nombre;
