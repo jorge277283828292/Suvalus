@@ -278,7 +278,7 @@ nav a.active {
     visibility: visible;
     transform: translateY(0);
     transition: none;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .filter-dropdown label {
