@@ -90,7 +90,7 @@
     "categoria": "Decoracion"
   },
   {
-    "nombre": "Diadema de Unicornio",
+    "nombre": "Diadema de Unicornio #2",
     "imagen": "Img_Productos/34716253_2099521913411029_713527469549813760_n.jpg",
     "categoria": "Accesorios"
   },
@@ -145,7 +145,7 @@
     "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Photobooth de Primera Comunion",
+    "nombre": "Photobooth de Primera Comunion #1",
     "imagen": "Img_Productos/43326544_2289933881036497_5779766674529976320_n.jpg",
     "categoria": "Photobooth"
   },
@@ -380,355 +380,264 @@
     "categoria": "Decoracion"
   },
   {
-    "nombre": "Producto 102",
-    "imagen": "Img_Productos/514718134_24642328382037061_4915976624117694077_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 103",
-    "imagen": "Img_Productos/514720835_24636225685980664_3530845813109721076_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 104",
+    "nombre": "Centro de Mesa de Carnaval #1",
     "imagen": "Img_Productos/514721869_24654761190793780_7480353197729113096_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 105",
+    "nombre": "Centro de Mesa de la Princesita Sophia #2",
     "imagen": "Img_Productos/514724491_24645097435093489_5171329881499117257_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 106",
+    "nombre": "Cajita de Minnie Mouse #4",
     "imagen": "Img_Productos/514724793_24664130806523485_6286815894134061294_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas" 
   },
   {
-    "nombre": "Producto 107",
+    "nombre": "Diadema de Sombrero de Plumas",
     "imagen": "Img_Productos/514757457_24646171551652744_644738958319384675_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 108",
+    "nombre": "Piñata del Monstruo Come Galletas #2",
     "imagen": "Img_Productos/514778544_24635978236005409_1153658986001358334_n (1).jpg",
-    "categoria": "Otros"
-  },
-
-  {
-    "nombre": "Producto 110",
-    "imagen": "Img_Productos/514790180_24675886698681229_468675967618306423_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 111",
-    "imagen": "Img_Productos/514801947_24660594496877116_9119829319361815434_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 112",
-    "imagen": "Img_Productos/514849573_24646740748262491_5645911370791349658_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 113",
-    "imagen": "Img_Productos/514866302_24659252263678006_6113985306528463585_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 114",
+    "nombre": "Confitero de la Princesita Sophia",
     "imagen": "Img_Productos/514903472_24645097428426823_7754824274644468691_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
-    "nombre": "Producto 115",
+    "nombre": "Cajita del Rey Cerdo",
     "imagen": "Img_Productos/514913133_24660594233543809_399548452221818399_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 116",
+    "nombre": "Cajita de Linterna Verde",
     "imagen": "Img_Productos/514927521_24660594483543784_6244418079943908601_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 117",
+    "nombre": "Cajita de Pokemon",
     "imagen": "Img_Productos/514929555_24660859396850626_8753039866490053013_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 118",
+    "nombre": "Decoracion de Payaso",
     "imagen": "Img_Productos/514953473_24653570447579521_3971871178699870909_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
-    "nombre": "Producto 119",
+    "nombre": "Photobooth de Baby Shower #4",
     "imagen": "Img_Productos/514956193_24671324262470806_2499439954732825237_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Photobooth"
   },
   {
-    "nombre": "Producto 120",
+    "nombre": "Cajitas de Cofre del Tesoro",
     "imagen": "Img_Productos/514966104_24641929842076915_1116661637680753805_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 121",
+    "nombre": "Cajita de Elmo",
     "imagen": "Img_Productos/514966676_24660594426877123_7585409769608976708_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 122",
+    "nombre": "Cajitas de Carnaval",
     "imagen": "Img_Productos/514969037_24636139435989289_5768896388237844265_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 123",
+    "nombre": "Piñata de Rubble Paw Patrol #2",
     "imagen": "Img_Productos/514970955_24680221261581106_3462331404401301346_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 124",
-    "imagen": "Img_Productos/515007413_24643317381938161_3689667546111083167_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 125",
+    "nombre": "Piñata de Jorge el Curioso",
     "imagen": "Img_Productos/515007488_24647456948190871_7356927966532381526_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Pinatas"
   },
   {
-    "nombre": "Producto 126",
-    "imagen": "Img_Productos/515010811_24675103655426200_8955229388840636676_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 127",
+    "nombre": "Sombrero Cafe",
     "imagen": "Img_Productos/515010811_24675103918759507_5568227911082328037_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
-    "nombre": "Producto 128",
+    "nombre": "Cajita de Jake el Pirata",
     "imagen": "Img_Productos/515010879_24660594610210438_390457238257532898_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 129",
+    "nombre": "Cajita de Mario Bros #2",
     "imagen": "Img_Productos/515011256_24660594553543777_2685858441922466216_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 130",
+    "nombre": "Cajita de Mariquita",
     "imagen": "Img_Productos/515014331_24652464457690120_810165263599862604_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 131",
+    "nombre": "Cajita de Futbol",
     "imagen": "Img_Productos/515015912_24660594510210448_8946071982934444355_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 132",
+    "nombre": "Piñata de Minnie Mouse #3",
     "imagen": "Img_Productos/515020194_24636040399332526_5507341438170647231_n.jpg",
     "categoria": "Otros"
   },
   {
-    "nombre": "Producto 133",
+    "nombre": "Bolsita de Vestido",
     "imagen": "Img_Productos/515020984_24652520024351230_2531221377306589635_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 134",
+    "nombre": "Photobooth de Primera Comunion #2",
     "imagen": "Img_Productos/515022163_24664601859809713_6924700144658071391_n.jpg",
     "categoria": "Otros"
   },
   {
-    "nombre": "Producto 135",
+    "nombre": "Espada de Pirata",
     "imagen": "Img_Productos/515029630_24638955332374366_5629831041849443583_n.jpg",
     "categoria": "Otros"
   },
   {
-    "nombre": "Producto 136",
+    "nombre": "Cajita de Hongo de Mario Bros",
     "imagen": "Img_Productos/515041187_24660594493543783_6265769016124286015_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 138",
+    "nombre": "Centro de Mesa de Carnaval #2",
     "imagen": "Img_Productos/515044778_24654761050793794_1179599814196167358_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 139",
-    "imagen": "Img_Productos/515044932_24660594533543779_4025897862953124335_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 140",
+    "nombre": "Decoracion de la Princesita Sophia",
     "imagen": "Img_Productos/515049268_24645097085093524_4987910201470739092_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
-    "nombre": "Producto 141",
-    "imagen": "Img_Productos/515051317_24660594470210452_9038847330035993939_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 142",
+    "nombre": "Cajita de Regalo en Forma de Corazon",
     "imagen": "Img_Productos/515053111_24665666483036584_4235169706720601955_n.jpg",
     "categoria": "Otros"
   },
   {
-    "nombre": "Producto 143",
+    "nombre": "Cajita de Hulk",
     "imagen": "Img_Productos/515054005_24660591306877435_2198955237541362473_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 144",
+    "nombre": "Cajita de Carta",
     "imagen": "Img_Productos/515054005_24660594333543799_3970540768689093839_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 145",
+    "nombre": "Cofre de la Princesita Sophia",
     "imagen": "Img_Productos/515055396_24642328315370401_6303411333175975341_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 146",
+    "nombre": "Cajita de la Chica Fresita",
     "imagen": "Img_Productos/515057595_24660594596877106_6181369427058812784_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 147",
-    "imagen": "Img_Productos/515058578_24661719703431262_6556317485627227775_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 148",
+    "nombre": "Cajita de The legend of Zelda",
     "imagen": "Img_Productos/515060800_24660594573543775_7929746113470605474_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 149",
+    "nombre": "Cajitas de Elsa",
     "imagen": "Img_Productos/515075860_24659792320290667_364821204805685949_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 150",
+    "nombre": "Cajita de Campanita",
     "imagen": "Img_Productos/515078575_24660594500210449_2828537998429555643_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 151",
+    "nombre": "Centro de Mesa de Woody",
     "imagen": "Img_Productos/515081849_24656594330610466_8498957350737016699_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 152",
-    "imagen": "Img_Productos/515093645_24660859476850618_6221565354888369028_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 154",
+    "nombre": "Centros de Mesa de Unicornio #2",
     "imagen": "Img_Productos/515097215_24676221318647767_1395678261843328978_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 155",
-    "imagen": "Img_Productos/515135197_24660594576877108_9201481558106997568_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 156",
-    "imagen": "Img_Productos/515141876_24643315711938328_7464028317800302926_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 157",
-    "imagen": "Img_Productos/515202617_24660594506877115_2075953650166957485_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 158",
-    "imagen": "Img_Productos/515229276_24660594236877142_5194663018562640127_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 159",
+    "nombre": "Cajita del Monstruo Come Galletas",
     "imagen": "Img_Productos/515236123_24660594526877113_8418913666733064765_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 160",
+    "nombre": "Cajita de Minion #2",
     "imagen": "Img_Productos/515257735_24645901988346367_2388081839829645771_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 163",
+    "nombre": "Centro de Mesa de Moana",
     "imagen": "Img_Productos/515258937_24668374372765795_3367494595095596153_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 164",
+    "nombre": "Antifaz de Pajaro",
     "imagen": "Img_Productos/515258937_24675269832076249_3187691315572907678_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 165",
+    "nombre": "Gorra de Minnie Mouse",
     "imagen": "Img_Productos/515260172_24664130793190153_6470426622203619684_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
-    "nombre": "Producto 166",
+    "nombre": "Sombreros de Novia y Novio",
     "imagen": "Img_Productos/515262385_24665666553036577_8154632313258053098_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Sombreros"
   },
   {
-    "nombre": "Producto 167",
+    "nombre": "Centro de Mesa de Ranpunzel",
     "imagen": "Img_Productos/515278790_24666714842931748_5950313499512619162_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 169",
+    "nombre": "Photobooth de Dragon Ball",
     "imagen": "Img_Productos/515282954_24657834973819735_6791019997572939060_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Photobooth"
   },
   {
-    "nombre": "Producto 170",
+    "nombre": "Photobooth de Frozen #3",
     "imagen": "Img_Productos/515283984_24653836797552886_1013229744506673471_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Photobooth"
   },
   {
-    "nombre": "Producto 171",
+    "nombre": "Antifaz de Obeja",
     "imagen": "Img_Productos/515294853_24659352680334631_1225856343386323876_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 172",
+    "nombre": "Centro de Mesa Fiesta de 50 años",
     "imagen": "Img_Productos/515297045_24654320987504467_4761920018651050718_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Producto 174",
+    "nombre": "Diadema de Unicornio #2",
     "imagen": "Img_Productos/515309143_24675417525394813_1705357198627054269_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Accesorios"
   },
   {
-    "nombre": "Producto 175",
-    "imagen": "Img_Productos/515309687_24646740418262524_4915197644488700599_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 176",
+    "nombre": "Cajita de Dragon Ball",
     "imagen": "Img_Productos/515310422_24660594223543810_1432543482506512923_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas"
   },
   {
-    "nombre": "Producto 177",
-    "imagen": "Img_Productos/515311435_24665666583036574_9074791576534155129_n.jpg",
-    "categoria": "Otros"
-  },
-  {
-    "nombre": "Producto 178",
+    "nombre": "Corona Navideña #3",
     "imagen": "Img_Productos/515317807_24665773513025881_434647709300048787_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Decoracion"
   },
   {
     "nombre": "Producto 179",
@@ -1791,7 +1700,7 @@
     "categoria": "Bolsitas"
   },
   {
-    "nombre": "Cajita de Minion",
+    "nombre": "Cajita de Minion #1",
     "imagen": "Img_Productos/118930310_3766508466712357_6802421553735200614_n.jpg",
     "categoria": "Bolsitas"
   },
@@ -2142,7 +2051,7 @@
     "categoria": "Decoracion"
   },
   {
-    "nombre": "Piñata del Monstruo Comer Galletas",
+    "nombre": "Piñata del Monstruo Come Galletas #1",
     "imagen": "Img_Productos/119836909_3802391046457432_4236596524111214807_n.jpg",
     "categoria": "Pinatas"
   },
@@ -2387,7 +2296,7 @@
     "categoria": "Centros_de_Mesa"
   },
   {
-    "nombre": "Centros de Mesa de Unicornio",
+    "nombre": "Centros de Mesa de Unicornio #1",
     "imagen": "Img_Productos/473236709_1630404067795999_695321088842380227_n.jpg",
     "categoria": "Centros_de_Mesa"
   },
@@ -2784,7 +2693,7 @@
     "categoria": "Pinatas"
   },
   {
-    "nombre": "Centro de Mesa Primera Comunion",
+    "nombre": "Centro de Mesa Primera Comunion #1",
     "imagen": "Img_Productos/482093539_1666967267473012_5644382053493439053_n.jpg",    
     "categoria": "Centros_de_Mesa"
   },
@@ -3150,7 +3059,7 @@
     "categoria": "Pinatas"
   },
   {
-    "nombre": "Piñata de Minnie Mouse",
+    "nombre": "Piñata de Minnie Mouse #1",
     "imagen": "Img_Productos/487469378_1692951354874603_7982399995819654325_n.jpg",
     "categoria": "Pinatas"
   },
