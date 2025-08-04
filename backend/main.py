@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from typing import List
 from datetime import datetime
 from sqlalchemy.orm import Session
-from database import SessionLocal, engine
-from models import Base, Comentario
+from .database import SessionLocal, engine
+from .models import Base, Comentario, Contacto
 
 from better_profanity import profanity
 
@@ -43,6 +43,16 @@ class ComentarioOut(ComentarioIn):
     fecha: datetime
     estrellas: int
 
+class ContactoIn(BaseModel):
+    nombre: str
+    correo: str
+    telefono: str
+    mensaje: str
+
+class ContactoOut(ContactoIn):
+    id: int
+    fecha: datetime
+
 def get_db():
     db = SessionLocal()
     try:
@@ -79,3 +89,20 @@ async def post_comment(comment: ComentarioIn, db: Session = Depends(get_db)):
     except Exception as e:
         db.rollback()
         raise HTTPException(status_code=500, detail=f"Error al guardar comentario: {str(e)}")
+
+@app.post("/contacto", response_model=ContactoOut)
+async def post_contacto(contacto: ContactoIn, db: Session = Depends(get_db)):
+    try:
+        nuevo_contacto = Contacto(
+            nombre=contacto.nombre,
+            correo=contacto.correo,
+            telefono=contacto.telefono,
+            mensaje=contacto.mensaje
+        )
+        db.add(nuevo_contacto)
+        db.commit()
+        db.refresh(nuevo_contacto)
+        return nuevo_contacto
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=f"Error al guardar contacto: {str(e)}")

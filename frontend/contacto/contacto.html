@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -38,6 +38,56 @@
     <textarea id="comment-text" name="comment-text" placeholder="Mensaje" rows="5" required></textarea>
     <button type="submit">Enviar</button>
   </form>
+
+  <!-- Modal de agradecimiento -->
+  <div id="thankYouModal" class="modal" style="display:none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.5);">
+    <div class="modal-content" style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; border-radius: 8px; text-align: center;">
+      <span id="closeModal" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+      <p style="font-size: 18px; color: #333;">Gracias por llenar el formulario, nos pondremos en contacto pronto.</p>
+    </div>
+  </div>
+
+  <script>
+    const modal = document.getElementById('thankYouModal');
+    const closeModal = document.getElementById('closeModal');
+
+    closeModal.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    document.getElementById('contact-form').addEventListener('submit', async function(event) {
+      event.preventDefault();
+      const nombre = document.getElementById('name').value;
+      const correo = document.getElementById('email').value;
+      const telefono = document.getElementById('phone').value;
+      const mensaje = document.getElementById('comment-text').value;
+
+      try {
+        const response = await fetch('http://127.0.0.1:8000/contacto', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ nombre, correo, telefono, mensaje })
+        });
+
+        if (response.ok) {
+          modal.style.display = "block";
+          document.getElementById('contact-form').reset();
+        } else {
+          alert('Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo.');
+        }
+      } catch (error) {
+        alert('Error de red. Por favor, verifica tu conexión e inténtalo de nuevo.');
+      }
+    });
+  </script>
       </div>
     </div>
   </section>
