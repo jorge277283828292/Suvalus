@@ -175,23 +175,23 @@ nav a.active {
 }
 
 /* Botón para mostrar/ocultar filtros */
-#filterToggleButton {
-  background-color: var(--pink);
-  border: none;
-  color: white;
-  padding: 8px 16px;
-  font-size: 16px;
-  border-radius: 25px;
-  cursor: pointer;
-  user-select: none;
-  box-shadow: 0 4px 10px rgba(251, 82, 168, 0.4);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
+  #filterToggleButton {
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 4px 10px rgba(251, 82, 168, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
 
-#filterToggleButton:hover {
-  background-color: var(--purple);
-  box-shadow: 0 6px 15px rgba(151, 98, 223, 0.6);
-}
+  #filterToggleButton:hover {
+    background-color: var(--purple);
+    box-shadow: 0 6px 15px rgba(151, 98, 223, 0.6);
+  }
 
 /* Dropdown de filtros */
 .filter-dropdown {
@@ -240,15 +240,25 @@ nav a.active {
   @media (max-width: 600px) {
   .filters-container {
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
+    gap: 12px;
   }
 
   #searchInput {
-    width: 100%;
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
   }
 
-  .filter-dropdown-container {
-    width: 100%;
+  #searchButton {
+    margin-left: 0;
+    margin-top: 8px;
+    width: 45px;
+    height: 45px;
+  }
+
+  #filterToggleButton {
+    align-self: center;
   }
 
   .filter-dropdown {
@@ -257,25 +267,27 @@ nav a.active {
     box-shadow: none;
     border: none;
     padding: 10px 10px 10px 15px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 20px;
     width: 100%;
-    max-height: 200px;
+    max-height: 250px;
     overflow-y: auto;
     background-color: #fff0f6;
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
     transition: none;
+    justify-content: center;
   }
 
   .filter-dropdown label {
     background-color: transparent;
     color: var(--pink);
     box-shadow: none;
-    padding: 6px 10px;
+    padding: 8px 12px;
     font-size: 1rem;
+    text-align: left;
   }
 
   .filter-dropdown label:hover {
