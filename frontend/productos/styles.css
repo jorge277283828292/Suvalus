@@ -237,7 +237,7 @@ nav a.active {
 }
 
 /* Ajustes responsivos */
-@media (max-width: 600px) {
+  @media (max-width: 600px) {
   .filters-container {
     flex-direction: column;
     align-items: stretch;
@@ -256,23 +256,50 @@ nav a.active {
     min-width: auto;
     box-shadow: none;
     border: none;
-    padding: 10px 0;
+    padding: 10px 10px 10px 15px;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff0f6;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: none;
   }
 
   .filter-dropdown label {
     background-color: transparent;
     color: var(--pink);
     box-shadow: none;
-    padding: 0;
+    padding: 6px 10px;
+    font-size: 1rem;
   }
 
   .filter-dropdown label:hover {
     background-color: transparent;
     color: var(--purple);
     box-shadow: none;
+  }
+
+  #filterToggleButton {
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 4px 10px rgba(251, 82, 168, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  #filterToggleButton:hover {
+    background-color: var(--purple);
+    box-shadow: 0 6px 15px rgba(151, 98, 223, 0.6);
   }
 
   /* Mobile optimization for category boxes */
