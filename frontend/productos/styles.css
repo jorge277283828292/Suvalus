@@ -186,6 +186,7 @@ nav a.active {
     user-select: none;
     box-shadow: 0 4px 10px rgba(251, 82, 168, 0.4);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 10px; /* Ajuste para alinear con la lupa */
   }
 
   #filterToggleButton:hover {
