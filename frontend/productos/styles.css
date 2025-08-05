@@ -693,6 +693,7 @@ footer {
       padding: 8px 12px;
       flex-wrap: nowrap;
       width: 100%;
+    }
 
     #searchInput {
       font-size: 16px;
@@ -756,4 +757,37 @@ footer {
       font-size: 0.9rem;
     }
   }
+
+  /* Ajustes para la sección ¿Quiénes Somos? en tabletas y móviles */
+
+  /* Para tablets: texto alineado a la derecha */
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .about {
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: center !important;
+      gap: 20px !important;
+      justify-content: flex-start !important;
+    }
+    .about-content {
+      text-align: right !important;
+      flex: 1 !important;
+    }
+    .about-img {
+      flex: 1 !important;
+    }
+  }
+
+  /* Para móviles: tamaño de texto reducido */
+  @media (max-width: 480px) {
+    .about-content h2 {
+      font-size: 1.1rem !important;
+      text-align: left !important;
+      margin-bottom: 0.5rem !important;
+    }
+    .about-content p {
+      font-size: 0.8rem !important;
+      text-align: left !important;
+      margin-bottom: 0 !important;
+    }
   }
