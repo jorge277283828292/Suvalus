@@ -35,7 +35,7 @@
     "categoria": "Sombreros"
   },
   {
-    "nombre": "Piñata de Elmo",
+    "nombre": "Piñata de Elmo #1",
     "imagen": "Img_Productos/126062712_3995628520467016_4182229008082445137_n.jpg",
     "categoria": "Pinatas"
   },
@@ -357,7 +357,7 @@
   {
     "nombre": "Piñata de Elmo #2",
     "imagen": "Img_Productos/514502714_24635978229338743_4455196333164770448_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Pinatas"
   },
   {
     "nombre": "Cajita de Minnie Mouse #3",
@@ -487,7 +487,7 @@
   {
     "nombre": "Piñata de Minnie Mouse #3",
     "imagen": "Img_Productos/515020194_24636040399332526_5507341438170647231_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Pinatas"
   },
   {
     "nombre": "Bolsita de Vestido",
@@ -637,7 +637,7 @@
   {
     "nombre": "Cajita de Pokémon #2",
     "imagen": "Img_Productos/515321755_24660594593543773_7405322910481348921_n.jpg",
-    "categoria": "Otros"
+    "categoria": "Bolsitas" 
   },
   {
     "nombre": "Decoración de Monito",
