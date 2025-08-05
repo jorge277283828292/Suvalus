@@ -117,6 +117,20 @@ nav a {
 
 section {
   padding: 3rem 2rem;
+  margin-bottom: 30px;
+}
+
+/* Eliminar márgenes duplicados y hacerlos consistentes */
+.about,
+.testimonials,
+.products,
+.new-carousels {
+  margin-bottom: 30px;
+}
+
+/* Asegurar que el último elemento antes del footer también tenga espacio */
+.testimonials {
+  margin-bottom: 30px;
 }
 
 
@@ -149,7 +163,7 @@ section {
   height: 8px;
 }
 
-.carousel-container::-webkit-scrollbar-thumb {
+.carousel-container ::-webkit-scrollbar-thumb {
   background: var(--purple);
   border-radius: 4px;
 }
@@ -220,12 +234,29 @@ section {
   display: flex;
   gap: 2rem;
   justify-content: center;
-  margin-bottom: 30px; /* Aumentado para más espacio con la sección anterior */
+  margin-bottom: 45px; /* Aumentado para más espacio con la sección anterior */
   border-radius: 2px;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   border: 1px solid #f9cde6;
+  margin-top: 0 !important; /* Eliminar margen superior para evitar espacio extra */
+  padding-top: 30px; /* Añadido padding superior para igualar espacio */
+}
+
+.testimonials {
+  margin-top: 0 !important; /* Eliminar margen superior para evitar espacio extra */
+  margin-bottom: 30px;
+}
+
+.products {
+  margin-top: 0 !important; /* Eliminar margen superior para evitar espacio extra */
+  margin-bottom: 30px;
+}
+
+.new-carousels {
+  margin-top: 0 !important; /* Eliminar margen superior para evitar espacio extra */
+  margin-bottom: 30px;
 }
 
 .about img {

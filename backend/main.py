@@ -68,7 +68,7 @@ async def get_comments(db: Session = Depends(get_db)):
 @app.get("/comments/random", response_model=List[ComentarioOut])
 async def get_random_comments(db: Session = Depends(get_db)):
     from sqlalchemy.sql.expression import func as sql_func
-    comentarios = db.query(Comentario).order_by(sql_func.random()).limit(3).all()
+    comentarios = db.query(Comentario).order_by(sql_func.random()).limit(6).all()
     return comentarios
 
 @app.post("/comments", response_model=ComentarioOut)

@@ -5,3 +5,5 @@
 git reset --hard HEAD
 
  cd backend; .\\env\\Scripts\\activate.ps1; uvicorn main:app --reload
+
+ cd backend; .\\env\\Scripts\\activate.ps1; uvicorn main:app --reload 
