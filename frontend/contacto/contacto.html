@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -29,6 +29,7 @@
         <p><strong>Facebook:</strong> <a href="https://www.facebook.com/share/14DyeAnNN9j/" target="_blank" rel="noopener noreferrer">https://www.facebook.com/share/14DyeAnNN9j/</a></p>
         <p><strong>Teléfono:</strong> +506 64209200</p>
         <p><strong>Correo:</strong> <a href="mailto:suvalus15@gmail.com">suvalus15@gmail.com</a></p>
+        <img src="../Imagenes/QR.jpg" alt="Código QR" style="width: 100px; margin-top: 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);" />
       </div>
       <div class="contact-form" style="flex: 1; padding: 10px;">
   <form id="contact-form" style="background:none; box-shadow:none; padding:0; margin:0;">
@@ -47,6 +48,7 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
   <script>
     const modal = document.getElementById('thankYouModal');
     const closeModal = document.getElementById('closeModal');
@@ -78,7 +80,17 @@
         });
 
         if (response.ok) {
-          modal.style.display = "block";
+          // Mostrar animación de confetti
+          confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { y: 0.6 }
+          });
+
+          // Mostrar mensaje modal
+          //modal.style.display = "block";
+
+          // Resetear formulario
           document.getElementById('contact-form').reset();
         } else {
           alert('Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo.');
@@ -98,3 +110,4 @@
   </footer>
 </body>
 </html>
+</create_file>

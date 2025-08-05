@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from typing import List
 from datetime import datetime
 from sqlalchemy.orm import Session
-from .database import SessionLocal, engine
-from .models import Base, Comentario, Contacto
+from database import SessionLocal, engine
+from models import Base, Comentario, Contacto
 
 from better_profanity import profanity
 
