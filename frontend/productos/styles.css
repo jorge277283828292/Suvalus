@@ -172,6 +172,11 @@ nav a.active {
 
 .close-filter-button:hover {
   background-color: var(--purple);
+  cursor: pointer; /* Cambia el cursor a mano */
+}
+
+.close-filter-button:hover {
+  background-color: var(--purple);
 }
 
 /* Botón para mostrar/ocultar filtros */
