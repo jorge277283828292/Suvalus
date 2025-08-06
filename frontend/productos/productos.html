@@ -137,7 +137,7 @@
   
           // Crear párrafo para la categoría
           const categoryP = document.createElement('p');
-          const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : product.categoria.replace(/_/g, ' ');
+          const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : (product.categoria === 'Decoracion' ? 'Decoración' : product.categoria.replace(/_/g, ' '));
           categoryP.textContent = 'Categoria: ' + categoriaMostrar;
           categoryP.className = 'product-category';
   
@@ -327,13 +327,13 @@
       modal.appendChild(modalContent);
       document.body.appendChild(modal);
 
-      function openProductModal(product) {
-        const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : product.categoria.replace(/_/g, ' ');
-        categoryInfo.textContent = 'Categoría: ' + categoriaMostrar;
-        productImage.src = product.imagen;
-        productImage.alt = product.nombre;
-        modal.style.display = 'flex';
-      }
+function openProductModal(product) {
+  const categoriaMostrar = product.categoria === 'Pinatas' ? 'Piñatas' : (product.categoria === 'Decoracion' ? 'Decoración' : product.categoria.replace(/_/g, ' '));
+  categoryInfo.textContent = 'Categoría: ' + categoriaMostrar;
+  productImage.src = product.imagen;
+  productImage.alt = product.nombre;
+  modal.style.display = 'flex';
+}
     </script>
 
     <!-- Incluir Fuse.js desde CDN -->

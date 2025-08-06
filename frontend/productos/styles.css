@@ -1,4 +1,4 @@
-    /* Variables de colores */
+      /* Variables de colores */
 :root {
   --pink: #FB52A8;
   --orange: #FD9A38;
@@ -761,20 +761,11 @@ footer {
   /* Ajustes para la sección ¿Quiénes Somos? en tabletas y móviles */
 
   /* Para tablets: texto alineado a la derecha */
-  @media (min-width: 600px) and (max-width: 1024px) {
-    .about {
-      display: flex !important;
-      flex-direction: row !important;
-      align-items: center !important;
-      gap: 20px !important;
-      justify-content: flex-start !important;
-    }
-    .about-content {
-      text-align: right !important;
-      flex: 1 !important;
-    }
+  @media (min-width: 700px) and (max-width: 1100px) and (orientation: portrait) {
     .about-img {
-      flex: 1 !important;
+      max-width: 350px !important;
+      width: 350px !important;
+      height: auto !important;
     }
   }
 
